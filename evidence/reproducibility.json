@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "recorded_utc": "2026-10-05T14:08:31.704166+00:00",
-  "code_commit": "dd32585d1626012fae2e3171d87dcd7214f75141",
+  "recorded_utc": "2026-10-05T22:36:03.736673+00:00",
+  "code_commit": "d2dc03db236f141b78c1874ead969ec85134f085",
   "snapshot_id": "8c293a52745057c4",
   "release_sha256": "62661bb1f4116e86be3249173d263aded3a21d110a592fd0f47a2d1ed6e65a55",
   "result_sha256": "10506948d84139f3d27f92323d989160726d3f577e23ebd3cf1f9a5ea5e36023",
@@ -20,33 +20,33 @@
     {
       "command": "python -m transport.acquire data/raw/20261004T151205Z",
       "exit_code": 0,
-      "seconds": 2.527
+      "seconds": 2.338
     },
     {
       "command": "python -m transport.pipeline freeze",
       "exit_code": 0,
-      "seconds": 5.324
+      "seconds": 4.91
     },
     {
       "command": "python -m transport.pipeline evaluate",
       "exit_code": 0,
-      "seconds": 5.055
+      "seconds": 5.14
     },
     {
       "command": "python -m transport.map_layers",
       "exit_code": 0,
-      "seconds": 4.867
+      "seconds": 4.957
     },
     {
       "command": "python -m transport.roads",
       "exit_code": 0,
-      "seconds": 5.721
+      "seconds": 5.694
     },
     {
       "command": "python -m transport.exports",
       "exit_code": 0,
-      "seconds": 0.325
+      "seconds": 0.337
     }
   ],
-  "scope": "Fresh code extraction and frozen data archive, existing pinned runtime reused; no upstream network calls. Post-review integrity checks enabled. Original single-pass acquisition consistency is not retrospectively proven."
+  "scope": "Fresh code extraction and frozen data archive, existing pinned runtime reused; no upstream network calls. Raw hashes, curated data, frozen settings and results checked for equality. The original download was a single pass."
 }
