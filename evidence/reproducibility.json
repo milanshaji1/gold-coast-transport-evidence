@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "recorded_utc": "2026-10-05T13:25:46.044604+00:00",
-  "code_commit": "1f116ad7fb6a68c71e369b0cf03107fae6dd29af",
+  "recorded_utc": "2026-10-05T14:08:31.704166+00:00",
+  "code_commit": "dd32585d1626012fae2e3171d87dcd7214f75141",
   "snapshot_id": "8c293a52745057c4",
   "release_sha256": "62661bb1f4116e86be3249173d263aded3a21d110a592fd0f47a2d1ed6e65a55",
   "result_sha256": "10506948d84139f3d27f92323d989160726d3f577e23ebd3cf1f9a5ea5e36023",
@@ -12,6 +12,7 @@
     "results.json": true,
     "shortlist.geojson": true,
     "shortlist.csv": true,
+    "roads.json": true,
     "boundary.geojson": true,
     "monthly.csv": true
   },
@@ -19,27 +20,32 @@
     {
       "command": "python -m transport.acquire data/raw/20261004T151205Z",
       "exit_code": 0,
-      "seconds": 30.527
+      "seconds": 2.527
     },
     {
       "command": "python -m transport.pipeline freeze",
       "exit_code": 0,
-      "seconds": 31.992
+      "seconds": 5.324
     },
     {
       "command": "python -m transport.pipeline evaluate",
       "exit_code": 0,
-      "seconds": 31.838
+      "seconds": 5.055
     },
     {
       "command": "python -m transport.map_layers",
       "exit_code": 0,
-      "seconds": 31.603
+      "seconds": 4.867
+    },
+    {
+      "command": "python -m transport.roads",
+      "exit_code": 0,
+      "seconds": 5.721
     },
     {
       "command": "python -m transport.exports",
       "exit_code": 0,
-      "seconds": 0.345
+      "seconds": 0.325
     }
   ],
   "scope": "Fresh code extraction and frozen data archive, existing pinned runtime reused; no upstream network calls. Post-review integrity checks enabled. Original single-pass acquisition consistency is not retrospectively proven."
