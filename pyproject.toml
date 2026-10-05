@@ -1,12 +1,49 @@
 [build-system]
-requires = ["setuptools>=75"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
+
 [project]
 name = "gold-coast-transport-evidence"
-version = "0.1.0"
+version = "1.1.0"
+description = "Where should Gold Coast road-safety investigation start? A reproducible crash-hotspot study using Queensland open data."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Milan Shaji" }]
 requires-python = ">=3.12"
+dependencies = [
+    "duckdb",
+    "geopandas",
+    "mcp",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "pyogrio",
+    "pyproj",
+    "scikit-learn",
+    "scipy",
+    "shapely",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.urls]
+Dashboard = "https://milanshaji.com/gold-coast-transport-evidence/"
+Source = "https://github.com/milanshaji1/gold-coast-transport-evidence"
+
 [tool.setuptools.packages.find]
 where = ["src"]
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+# The formatter wraps code; long text literals are left intact.
+ignore = ["E501"]

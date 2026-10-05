@@ -20,10 +20,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: python -m pip install -r requirements.lock
-      - run: python -m pytest -q
-      - run: node --test site/metrics.test.js
-      - run: node --check site/app.js
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements.lock
+      - name: Check Python formatting and lint
+        run: |
+          ruff format --check .
+          ruff check .
+      - name: Check dashboard formatting
+        run: npx --yes prettier@3.9.9 --check site
+      - name: Python tests
+        run: python -m pytest -q
+      - name: JavaScript tests
+        run: |
+          node --test site/metrics.test.js
+          node --check site/app.js
       - uses: actions/upload-pages-artifact@v4
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         with:

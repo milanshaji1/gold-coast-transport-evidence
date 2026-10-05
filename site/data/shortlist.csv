@@ -1,41 +1,41 @@
-cell_id,clipped_area_km2,density_count,holdout_serious_count,rank,serious_count,suburbs
-1062_13830,0.25,0,5,1,17,"Helensvale, Oxenford"
-1062_13826,0.25,0,8,2,15,"Helensvale, Oxenford"
-1084_13805,0.19017521240983212,0,3,3,13,Surfers Paradise
-1061_13832,0.25,0,1,4,11,"Oxenford, Upper Coomera"
-1067_13816,0.25,0,6,5,11,"Arundel, Gaven"
-1074_13810,0.25,0,1,6,11,"Ashmore, Molendinar"
-1081_13811,0.25,0,2,7,11,Southport
-1083_13797,0.25,0,2,8,11,Broadbeach Waters
-1061_13835,0.25,0,1,9,10,"Coomera, Upper Coomera"
-1067_13815,0.25,0,1,10,10,"Gaven, Arundel"
-1073_13820,0.25,0,1,11,10,"Coombabah, Arundel"
-1080_13814,0.25,0,4,12,10,Southport
-1083_13805,0.25,0,0,13,10,Surfers Paradise
-1084_13804,0.21448116171570586,0,2,14,10,Surfers Paradise
-1060_13836,0.25,0,1,15,9,"Upper Coomera, Coomera"
-1066_13807,0.25,0,5,16,9,Nerang
-1067_13810,0.25,0,2,17,9,"Nerang, Gaven"
-1079_13811,0.25,0,2,18,9,Southport
-1081_13805,0.25,0,2,19,9,"Bundall, Southport"
-1084_13806,0.16968702078031375,0,6,20,9,Surfers Paradise
-1047_13859,0.25,0,0,21,8,"Ormeau, Yatala"
-1050_13852,0.25,0,1,22,8,Ormeau
-1060_13837,0.25,0,4,23,8,"Coomera, Upper Coomera"
-1062_13831,0.25,0,3,24,8,"Helensvale, Oxenford"
-1066_13806,0.25,0,0,25,8,Nerang
-1066_13822,0.25,0,0,26,8,Helensvale
-1072_13803,0.25,0,3,27,8,Carrara
-1072_13809,0.25,0,0,28,8,"Molendinar, Ashmore"
-1074_13813,0.25,0,0,29,8,"Molendinar, Southport"
-1076_13810,0.25,0,0,30,8,"Southport, Ashmore"
-1079_13782,0.25,0,0,31,8,"Varsity Lakes, Reedy Creek"
-1080_13802,0.25,0,1,32,8,"Bundall, Surfers Paradise"
-1080_13817,0.25,0,0,33,8,Labrador
-1081_13813,0.25,0,3,34,8,Southport
-1083_13783,0.25,0,4,35,8,"Burleigh Waters, Burleigh Heads"
-1083_13786,0.25,0,2,36,8,"Burleigh Waters, Varsity Lakes"
-1084_13801,0.25,0,1,37,8,"Surfers Paradise, Broadbeach"
-1084_13803,0.23457420392269357,0,1,38,8,Surfers Paradise
-1087_13788,0.23067031367384136,0,3,39,8,"Miami, Burleigh Heads"
-1045_13863,0.25,0,1,40,7,"Yatala, Stapylton"
+rank,cell_id,main_roads,road_manager,suburbs,serious_crashes_2021_2023,serious_crashes_2024,area_in_city_km2
+1,1062_13830,Pacific Hwy & Hope Island Rd,State-controlled (TMR),"Helensvale, Oxenford",17,5,0.25
+2,1062_13826,Pacific Hwy & Helensvale Rd,State-controlled (TMR),"Helensvale, Oxenford",15,8,0.25
+3,1084_13805,Esplanade & Elkhorn Ave,Council,Surfers Paradise,13,3,0.1902
+4,1061_13832,Pacific Hwy,State-controlled (TMR),"Oxenford, Upper Coomera",11,1,0.25
+5,1067_13816,Pacific Hwy & Heslop Rd,State-controlled (TMR),"Arundel, Gaven",11,6,0.25
+6,1074_13810,Southport - Nerang Rd & Currumburra Rd,State-controlled (TMR),"Ashmore, Molendinar",11,1,0.25
+7,1081_13811,Garden St & Queen St,Council,Southport,11,2,0.25
+8,1083_13797,Hooker Blvd & Sunshine Blvd,State-controlled (TMR),Broadbeach Waters,11,2,0.25
+9,1061_13835,Pacific Hwy & Beattie Rd,State-controlled (TMR),"Coomera, Upper Coomera",10,1,0.25
+10,1067_13815,Pacific Hwy & Smith St Connection Rd,State-controlled (TMR),"Gaven, Arundel",10,1,0.25
+11,1073_13820,Brisbane Rd & Pine Ridge Rd,State-controlled (TMR),"Coombabah, Arundel",10,1,0.25
+12,1080_13814,Marine Pde & Scarborough St,Mixed,Southport,10,4,0.25
+13,1083_13805,Ferny Ave & Thomas Dr,Council,Surfers Paradise,10,0,0.25
+14,1084_13804,Clifford St & Northcliffe Tce,Council,Surfers Paradise,10,2,0.2145
+15,1060_13836,Pacific Hwy & Service Centre Access,State-controlled (TMR),"Upper Coomera, Coomera",9,1,0.25
+16,1066_13807,Pacific Hwy & Price St,State-controlled (TMR),Nerang,9,5,0.25
+17,1067_13810,Pacific Hwy & Evers St,State-controlled (TMR),"Nerang, Gaven",9,2,0.25
+18,1079_13811,Nerang St & Eugaree St,State-controlled (TMR),Southport,9,2,0.25
+19,1081_13805,Bundall Rd & Ferry Rd,State-controlled (TMR),"Bundall, Southport",9,2,0.25
+20,1084_13806,Ferny Ave & Ocean Ave,Council,Surfers Paradise,9,6,0.1697
+21,1047_13859,Pacific Hwy & Burnside Rd,Mixed,"Ormeau, Yatala",8,0,0.25
+22,1050_13852,Creek St & Eggersdorf Rd,State-controlled (TMR),Ormeau,8,1,0.25
+23,1060_13837,Days Rd & Abraham Rd,State-controlled (TMR),"Coomera, Upper Coomera",8,4,0.25
+24,1062_13831,Pacific Hwy & Dreamworld Parkway,State-controlled (TMR),"Helensvale, Oxenford",8,3,0.25
+25,1066_13806,Nerang - Broadbeach Rd & Nerang Connection Rd,State-controlled (TMR),Nerang,8,0,0.25
+26,1066_13822,Gold Coast Hwy & Discovery Dr,State-controlled (TMR),Helensvale,8,0,0.25
+27,1072_13803,Birmingham Rd & Nerang - Broadbeach Rd,State-controlled (TMR),Carrara,8,3,0.25
+28,1072_13809,Southport - Nerang Rd & Cotlew St,State-controlled (TMR),"Molendinar, Ashmore",8,0,0.25
+29,1074_13813,Olsen Av & Smith St Connection Rd,State-controlled (TMR),"Molendinar, Southport",8,0,0.25
+30,1076_13810,Southport - Nerang Rd & Bailey Cres,State-controlled (TMR),"Southport, Ashmore",8,0,0.25
+31,1079_13782,Burleigh Connection Rd & Pacific Hwy,State-controlled (TMR),"Varsity Lakes, Reedy Creek",8,0,0.25
+32,1080_13802,Bundall Rd & Ashmore Rd,State-controlled (TMR),"Bundall, Surfers Paradise",8,1,0.25
+33,1080_13817,Marine Pde & Whiting St,Council,Labrador,8,0,0.25
+34,1081_13813,Nind St & Scarborough St,Council,Southport,8,3,0.25
+35,1083_13783,Reedy Creek Rd & Bermuda St,State-controlled (TMR),"Burleigh Waters, Burleigh Heads",8,4,0.25
+36,1083_13786,Christine Ave & Bermuda St,Mixed,"Burleigh Waters, Varsity Lakes",8,2,0.25
+37,1084_13801,Surf Pde & Gold Coast Hwy,Council,"Surfers Paradise, Broadbeach",8,1,0.25
+38,1084_13803,Remembrance Dr & Gold Coast Hwy,Council,Surfers Paradise,8,1,0.2346
+39,1087_13788,Christine Ave & Gold Coast Hwy,Mixed,"Miami, Burleigh Heads",8,3,0.2307
+40,1045_13863,Pacific Hwy & Christensen Rd,Mixed,"Yatala, Stapylton",7,1,0.25

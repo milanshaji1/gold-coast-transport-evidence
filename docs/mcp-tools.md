@@ -17,7 +17,7 @@ A fixed set of 30 cases (`evidence/ai/final-tool-cases.json`) runs over the real
 
 The one real failure is T29: a query mixing injection-style text with "crash coverage" didn't return the expected passage. The retriever wasn't tuned afterwards to make it pass.
 
-Rerunning these 30 cases is a regression check, not a fresh reliability estimate, because the cases are already known. Reruns are saved under `evidence/ai/regressions/`; the 5 October rerun also passed 29/30.
+Rerunning these 30 cases is a regression check, not a fresh reliability estimate, because the cases are already known. Before running, a replay checks that the cases and documents match the originals recorded in `evidence/ai/system-freeze.json`. Reruns are saved under `evidence/ai/regressions/`: the 5 October rerun and the 6 October rerun on the reformatted v1.1.0 code both passed 29/30, with the same T29 failure.
 
 ## Not in this version
 

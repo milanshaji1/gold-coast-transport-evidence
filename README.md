@@ -27,7 +27,7 @@ If the City of Gold Coast could only investigate a handful of places for road sa
 
 ## Tools
 
-Python (pandas, GeoPandas, scikit-learn, SciPy), DuckDB and SQL, BigQuery for an independent spatial check, Power BI, and a static dashboard (JavaScript and Leaflet, hosted on GitHub Pages). A small read-only [MCP server](docs/mcp-tools.md) also lets AI tools query the results.
+Python (pandas, GeoPandas, scikit-learn, SciPy), DuckDB and SQL, BigQuery for an independent spatial check, Power BI, and a static dashboard (JavaScript and Leaflet, hosted on GitHub Pages). Tested with pytest and Node, formatted with ruff and Prettier, and checked in GitHub Actions on every push. A small read-only [MCP server](docs/mcp-tools.md) also lets AI tools query the results.
 
 ## How it works
 
@@ -48,6 +48,7 @@ You need Python 3.12+ and Node.js 24+.
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock
 .venv/bin/python -m pytest -q
+.venv/bin/ruff check .
 node --test site/metrics.test.js
 ```
 
@@ -65,7 +66,7 @@ export PYTHONPATH=src
 .venv/bin/python -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-Then open http://127.0.0.1:8765. The rebuild reproduces the published files exactly. Running `transport.acquire` with no argument downloads fresh data into a new snapshot; the frozen checks will reject it rather than quietly replace the 2024 result.
+Then open http://127.0.0.1:8765. The rebuild reproduces the published files exactly, and the pipeline refuses to continue if the frozen settings or the 2024 result would change. Running `transport.acquire` with no argument downloads fresh data into a new snapshot; the frozen checks will reject it rather than quietly replace the 2024 result.
 
 ## Repository layout
 
@@ -81,6 +82,6 @@ Then open http://127.0.0.1:8765. The rebuild reproduces the published files exac
 
 ## Data and licence
 
-Crash and boundary data © State of Queensland, used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source links and hashes are in `evidence/source-manifest.json`. This is an independent project, not commissioned or endorsed by the City of Gold Coast or TMR.
+The code is released under the [MIT licence](LICENSE). Crash and boundary data © State of Queensland, used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); source links and hashes are in `evidence/source-manifest.json`. This is an independent project, not commissioned or endorsed by the City of Gold Coast or TMR.
 
 Built by [Milan Shaji](https://milanshaji.com), with AI coding assistance.
