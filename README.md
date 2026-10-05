@@ -18,10 +18,12 @@ If the City of Gold Coast could only investigate a handful of places for road sa
 
 ## What I found
 
-- **A small area holds a lot of the harm.** The top 20 squares cover 0.35% of the city but held **55 of 695** serious crashes in 2024 (7.9%), about 23 times their share by area.
+- **A small area holds a lot of the harm.** The top 20 squares cover 0.35% of the city but held **55 of 695** serious crashes in 2024 (7.9%). If crashes were spread evenly by area, that space would hold about 2.4, so the shortlist catches about 23 times its share.
 - **Clustering didn't help.** DBSCAN caught 54 of 695. The difference is too small to matter, so the simpler count method stays.
 - **Most hotspots are on state roads.** 14 of the top 20 squares are mostly on state-controlled roads, nine of them on the Pacific Motorway (M1). TMR manages those, not the City. A separate council-roads shortlist caught **40 of 384** serious crashes on council roads in 2024, against 24 for the combined list. (This split was added after the 2024 check, so it doesn't change the original result.)
 - **Limits.** Most serious crashes still happen outside any shortlist, and without traffic volumes the counts can't say which road is riskiest per trip.
+
+**Next step:** send the state-road hotspots to TMR. For the council list, add traffic volumes and road layout so sites can be compared by risk per trip, then inspect the top sites on the ground.
 
 ## Tools
 
