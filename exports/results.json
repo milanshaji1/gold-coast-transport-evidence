@@ -1,0 +1,2937 @@
+{
+  "clusters": {
+    "clusters": [
+      {
+        "bounding_box_diagonal_m": 652.437222291457,
+        "cluster": 0,
+        "events": 16
+      },
+      {
+        "bounding_box_diagonal_m": 892.2162258160829,
+        "cluster": 1,
+        "events": 10
+      },
+      {
+        "bounding_box_diagonal_m": 559.5903145711075,
+        "cluster": 2,
+        "events": 9
+      },
+      {
+        "bounding_box_diagonal_m": 411.60417455893736,
+        "cluster": 3,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 2463.336542906193,
+        "cluster": 4,
+        "events": 38
+      },
+      {
+        "bounding_box_diagonal_m": 686.3095758131628,
+        "cluster": 5,
+        "events": 11
+      },
+      {
+        "bounding_box_diagonal_m": 1638.8715178048378,
+        "cluster": 6,
+        "events": 36
+      },
+      {
+        "bounding_box_diagonal_m": 193.0751356418678,
+        "cluster": 7,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 1086.24205178596,
+        "cluster": 8,
+        "events": 19
+      },
+      {
+        "bounding_box_diagonal_m": 2227.869511797046,
+        "cluster": 9,
+        "events": 45
+      },
+      {
+        "bounding_box_diagonal_m": 565.5375802551163,
+        "cluster": 10,
+        "events": 10
+      },
+      {
+        "bounding_box_diagonal_m": 1864.016205160358,
+        "cluster": 11,
+        "events": 33
+      },
+      {
+        "bounding_box_diagonal_m": 740.3115957837093,
+        "cluster": 12,
+        "events": 15
+      },
+      {
+        "bounding_box_diagonal_m": 536.7033165116192,
+        "cluster": 13,
+        "events": 8
+      },
+      {
+        "bounding_box_diagonal_m": 1211.998644119929,
+        "cluster": 14,
+        "events": 17
+      },
+      {
+        "bounding_box_diagonal_m": 286.3240767898412,
+        "cluster": 15,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 1092.4274841926906,
+        "cluster": 16,
+        "events": 24
+      },
+      {
+        "bounding_box_diagonal_m": 1601.662072435047,
+        "cluster": 17,
+        "events": 48
+      },
+      {
+        "bounding_box_diagonal_m": 896.3683709576754,
+        "cluster": 18,
+        "events": 18
+      },
+      {
+        "bounding_box_diagonal_m": 1350.5071174408997,
+        "cluster": 19,
+        "events": 24
+      },
+      {
+        "bounding_box_diagonal_m": 457.7070991470844,
+        "cluster": 20,
+        "events": 12
+      },
+      {
+        "bounding_box_diagonal_m": 651.7681190699675,
+        "cluster": 21,
+        "events": 11
+      },
+      {
+        "bounding_box_diagonal_m": 1080.3396301680423,
+        "cluster": 22,
+        "events": 17
+      },
+      {
+        "bounding_box_diagonal_m": 1066.7769942558327,
+        "cluster": 23,
+        "events": 21
+      },
+      {
+        "bounding_box_diagonal_m": 1365.256693513258,
+        "cluster": 24,
+        "events": 25
+      },
+      {
+        "bounding_box_diagonal_m": 383.7951563031059,
+        "cluster": 25,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 363.7248149512821,
+        "cluster": 26,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 796.1156079366732,
+        "cluster": 27,
+        "events": 15
+      },
+      {
+        "bounding_box_diagonal_m": 609.3337962423811,
+        "cluster": 28,
+        "events": 12
+      },
+      {
+        "bounding_box_diagonal_m": 711.0174119688502,
+        "cluster": 29,
+        "events": 18
+      },
+      {
+        "bounding_box_diagonal_m": 1703.9209280649807,
+        "cluster": 30,
+        "events": 49
+      },
+      {
+        "bounding_box_diagonal_m": 480.21102099715614,
+        "cluster": 31,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 295.4768827217506,
+        "cluster": 32,
+        "events": 13
+      },
+      {
+        "bounding_box_diagonal_m": 562.8448323598367,
+        "cluster": 33,
+        "events": 10
+      },
+      {
+        "bounding_box_diagonal_m": 452.5415590481386,
+        "cluster": 34,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 537.8275720892848,
+        "cluster": 35,
+        "events": 12
+      },
+      {
+        "bounding_box_diagonal_m": 378.161212307889,
+        "cluster": 36,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 184.14130679002022,
+        "cluster": 37,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 215.29668746811663,
+        "cluster": 38,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 232.05917331238524,
+        "cluster": 39,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 463.00392065089835,
+        "cluster": 40,
+        "events": 8
+      },
+      {
+        "bounding_box_diagonal_m": 348.210372515757,
+        "cluster": 41,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 258.09070674601594,
+        "cluster": 42,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 569.8147488089581,
+        "cluster": 43,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 18.900708710633566,
+        "cluster": 44,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 280.030157041102,
+        "cluster": 45,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 409.8684894755388,
+        "cluster": 46,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 21.0049919474103,
+        "cluster": 47,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 269.31776310283595,
+        "cluster": 48,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 619.9952401238384,
+        "cluster": 49,
+        "events": 10
+      },
+      {
+        "bounding_box_diagonal_m": 592.4776858868776,
+        "cluster": 50,
+        "events": 11
+      },
+      {
+        "bounding_box_diagonal_m": 986.1992185514154,
+        "cluster": 51,
+        "events": 16
+      },
+      {
+        "bounding_box_diagonal_m": 436.93402796540164,
+        "cluster": 52,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 562.7708754093686,
+        "cluster": 53,
+        "events": 12
+      },
+      {
+        "bounding_box_diagonal_m": 173.76221022055728,
+        "cluster": 54,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 590.291251921031,
+        "cluster": 55,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 483.894186656549,
+        "cluster": 56,
+        "events": 9
+      },
+      {
+        "bounding_box_diagonal_m": 375.5001069654888,
+        "cluster": 57,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 546.6297324418587,
+        "cluster": 58,
+        "events": 9
+      },
+      {
+        "bounding_box_diagonal_m": 73.25421275906022,
+        "cluster": 59,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 397.4303327146844,
+        "cluster": 60,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 377.8403871258985,
+        "cluster": 61,
+        "events": 9
+      },
+      {
+        "bounding_box_diagonal_m": 664.7788163533032,
+        "cluster": 62,
+        "events": 8
+      },
+      {
+        "bounding_box_diagonal_m": 272.76233433550357,
+        "cluster": 63,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 650.0908361354255,
+        "cluster": 64,
+        "events": 9
+      },
+      {
+        "bounding_box_diagonal_m": 189.00991276777984,
+        "cluster": 65,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 257.36343490442965,
+        "cluster": 66,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 426.87089077012627,
+        "cluster": 67,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 509.7046576215791,
+        "cluster": 68,
+        "events": 9
+      },
+      {
+        "bounding_box_diagonal_m": 400.6136197618216,
+        "cluster": 69,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 417.3418663309162,
+        "cluster": 70,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 381.99604289328295,
+        "cluster": 71,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 470.8465953034842,
+        "cluster": 72,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 475.72725100759203,
+        "cluster": 73,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 530.2639496038869,
+        "cluster": 74,
+        "events": 8
+      },
+      {
+        "bounding_box_diagonal_m": 521.863433234717,
+        "cluster": 75,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 384.7833307632141,
+        "cluster": 76,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 264.88220121166233,
+        "cluster": 77,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 487.82599208967844,
+        "cluster": 78,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 332.97656380606605,
+        "cluster": 79,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 454.8705245023264,
+        "cluster": 80,
+        "events": 7
+      },
+      {
+        "bounding_box_diagonal_m": 450.43267569956356,
+        "cluster": 81,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 388.71201200882194,
+        "cluster": 82,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 336.75763055564926,
+        "cluster": 83,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 432.05736690915927,
+        "cluster": 84,
+        "events": 6
+      },
+      {
+        "bounding_box_diagonal_m": 473.52424751599386,
+        "cluster": 85,
+        "events": 5
+      },
+      {
+        "bounding_box_diagonal_m": 374.1908444438521,
+        "cluster": 86,
+        "events": 5
+      }
+    ],
+    "noise_events": 1109
+  },
+  "evaluation": [
+    {
+      "capture_pct": 4.316546762589928,
+      "clipped_area_km2": 2.440175212409832,
+      "denominator": 695,
+      "k": 10,
+      "method": "count",
+      "nominal_area_km2": 2.5,
+      "numerator": 30,
+      "validation_refit_overlap": 5,
+      "zero_count_cells": 0,
+      "zero_density_cells": 10
+    },
+    {
+      "capture_pct": 7.913669064748201,
+      "clipped_area_km2": 4.824343394905852,
+      "denominator": 695,
+      "k": 20,
+      "method": "count",
+      "nominal_area_km2": 5.0,
+      "numerator": 55,
+      "validation_refit_overlap": 13,
+      "zero_count_cells": 0,
+      "zero_density_cells": 20
+    },
+    {
+      "capture_pct": 11.798561151079136,
+      "clipped_area_km2": 9.789587912502387,
+      "denominator": 695,
+      "k": 40,
+      "method": "count",
+      "nominal_area_km2": 10.0,
+      "numerator": 82,
+      "validation_refit_overlap": 27,
+      "zero_count_cells": 0,
+      "zero_density_cells": 40
+    },
+    {
+      "capture_pct": 4.316546762589928,
+      "clipped_area_km2": 2.440175212409832,
+      "denominator": 695,
+      "k": 10,
+      "method": "density",
+      "nominal_area_km2": 2.5,
+      "numerator": 30,
+      "validation_refit_overlap": 5,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    },
+    {
+      "capture_pct": 7.76978417266187,
+      "clipped_area_km2": 4.824343394905852,
+      "denominator": 695,
+      "k": 20,
+      "method": "density",
+      "nominal_area_km2": 5.0,
+      "numerator": 54,
+      "validation_refit_overlap": 13,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    },
+    {
+      "capture_pct": 11.942446043165468,
+      "clipped_area_km2": 9.789587912502387,
+      "denominator": 695,
+      "k": 40,
+      "method": "density",
+      "nominal_area_km2": 10.0,
+      "numerator": 83,
+      "validation_refit_overlap": 25,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    }
+  ],
+  "freeze_sha256": "bbfae854fc8333142b01fb72913448b0cbdd75589fb0a5fd2744207eba70e5be",
+  "monthly": [
+    {
+      "crashes": 50,
+      "month": 1,
+      "serious_casualties": 59,
+      "serious_crashes": 50,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 43,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 31,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 35,
+      "month": 2,
+      "serious_casualties": 43,
+      "serious_crashes": 35,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 67,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 19,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 4,
+      "month": 3,
+      "serious_casualties": 5,
+      "serious_crashes": 4,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 49,
+      "month": 3,
+      "serious_casualties": 57,
+      "serious_crashes": 49,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 49,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 16,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 2,
+      "month": 4,
+      "serious_casualties": 2,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 33,
+      "month": 4,
+      "serious_casualties": 37,
+      "serious_crashes": 33,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 23,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 12,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 45,
+      "month": 5,
+      "serious_casualties": 51,
+      "serious_crashes": 45,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 40,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 25,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 1,
+      "month": 6,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 41,
+      "month": 6,
+      "serious_casualties": 51,
+      "serious_crashes": 41,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 49,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 24,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 2,
+      "month": 7,
+      "serious_casualties": 5,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 51,
+      "month": 7,
+      "serious_casualties": 57,
+      "serious_crashes": 51,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 65,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 21,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 1,
+      "month": 8,
+      "serious_casualties": 4,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 54,
+      "month": 8,
+      "serious_casualties": 61,
+      "serious_crashes": 54,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 49,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 30,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 74,
+      "month": 9,
+      "serious_casualties": 91,
+      "serious_crashes": 74,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 52,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 24,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 1,
+      "month": 10,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 57,
+      "month": 10,
+      "serious_casualties": 64,
+      "serious_crashes": 57,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 49,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 32,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 3,
+      "month": 11,
+      "serious_casualties": 4,
+      "serious_crashes": 3,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 65,
+      "month": 11,
+      "serious_casualties": 71,
+      "serious_crashes": 65,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 58,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 28,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 3,
+      "month": 12,
+      "serious_casualties": 4,
+      "serious_crashes": 3,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 55,
+      "month": 12,
+      "serious_casualties": 60,
+      "serious_crashes": 55,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 58,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 24,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2020
+    },
+    {
+      "crashes": 57,
+      "month": 1,
+      "serious_casualties": 71,
+      "serious_crashes": 57,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 58,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 21,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 1,
+      "month": 2,
+      "serious_casualties": 3,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 55,
+      "month": 2,
+      "serious_casualties": 60,
+      "serious_crashes": 55,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 73,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 25,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 50,
+      "month": 3,
+      "serious_casualties": 75,
+      "serious_crashes": 50,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 54,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 21,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 2,
+      "month": 4,
+      "serious_casualties": 2,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 60,
+      "month": 4,
+      "serious_casualties": 75,
+      "serious_crashes": 60,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 52,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 30,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 1,
+      "month": 5,
+      "serious_casualties": 3,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 69,
+      "month": 5,
+      "serious_casualties": 85,
+      "serious_crashes": 69,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 57,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 34,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 1,
+      "month": 6,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 51,
+      "month": 6,
+      "serious_casualties": 56,
+      "serious_crashes": 51,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 72,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 29,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 65,
+      "month": 7,
+      "serious_casualties": 81,
+      "serious_crashes": 65,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 64,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 24,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 4,
+      "month": 8,
+      "serious_casualties": 4,
+      "serious_crashes": 4,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 50,
+      "month": 8,
+      "serious_casualties": 54,
+      "serious_crashes": 50,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 51,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 29,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 1,
+      "month": 9,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 63,
+      "month": 9,
+      "serious_casualties": 77,
+      "serious_crashes": 63,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 45,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 20,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 4,
+      "month": 10,
+      "serious_casualties": 6,
+      "serious_crashes": 4,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 51,
+      "month": 10,
+      "serious_casualties": 67,
+      "serious_crashes": 51,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 51,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 26,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 64,
+      "month": 11,
+      "serious_casualties": 75,
+      "serious_crashes": 64,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 46,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 23,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 1,
+      "month": 12,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 48,
+      "month": 12,
+      "serious_casualties": 68,
+      "serious_crashes": 48,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 44,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 25,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2021
+    },
+    {
+      "crashes": 44,
+      "month": 1,
+      "serious_casualties": 49,
+      "serious_crashes": 44,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 40,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 32,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 3,
+      "month": 2,
+      "serious_casualties": 3,
+      "serious_crashes": 3,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 52,
+      "month": 2,
+      "serious_casualties": 65,
+      "serious_crashes": 52,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 60,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 26,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 1,
+      "month": 3,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 58,
+      "month": 3,
+      "serious_casualties": 73,
+      "serious_crashes": 58,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 57,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 25,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 52,
+      "month": 4,
+      "serious_casualties": 65,
+      "serious_crashes": 52,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 69,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 25,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 1,
+      "month": 5,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 48,
+      "month": 5,
+      "serious_casualties": 56,
+      "serious_crashes": 48,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 50,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 17,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 2,
+      "month": 6,
+      "serious_casualties": 2,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 52,
+      "month": 6,
+      "serious_casualties": 62,
+      "serious_crashes": 52,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 55,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 33,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 60,
+      "month": 7,
+      "serious_casualties": 66,
+      "serious_crashes": 60,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 58,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 41,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 63,
+      "month": 8,
+      "serious_casualties": 74,
+      "serious_crashes": 63,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 42,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 33,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 1,
+      "month": 9,
+      "serious_casualties": 3,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 61,
+      "month": 9,
+      "serious_casualties": 72,
+      "serious_crashes": 61,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 42,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 31,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 2,
+      "month": 10,
+      "serious_casualties": 4,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 59,
+      "month": 10,
+      "serious_casualties": 72,
+      "serious_crashes": 59,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 38,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 20,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 4,
+      "month": 11,
+      "serious_casualties": 5,
+      "serious_crashes": 4,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 67,
+      "month": 11,
+      "serious_casualties": 78,
+      "serious_crashes": 67,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 34,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 31,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 2,
+      "month": 12,
+      "serious_casualties": 6,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 62,
+      "month": 12,
+      "serious_casualties": 75,
+      "serious_crashes": 62,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 48,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 25,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2022
+    },
+    {
+      "crashes": 2,
+      "month": 1,
+      "serious_casualties": 2,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 42,
+      "month": 1,
+      "serious_casualties": 64,
+      "serious_crashes": 42,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 51,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 22,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 52,
+      "month": 2,
+      "serious_casualties": 58,
+      "serious_crashes": 52,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 37,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 20,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 2,
+      "month": 3,
+      "serious_casualties": 3,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 67,
+      "month": 3,
+      "serious_casualties": 76,
+      "serious_crashes": 67,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 54,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 36,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 1,
+      "month": 4,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 59,
+      "month": 4,
+      "serious_casualties": 68,
+      "serious_crashes": 59,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 53,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 23,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 1,
+      "month": 5,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 60,
+      "month": 5,
+      "serious_casualties": 73,
+      "serious_crashes": 60,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 50,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 38,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 51,
+      "month": 6,
+      "serious_casualties": 63,
+      "serious_crashes": 51,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 47,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 30,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 2,
+      "month": 7,
+      "serious_casualties": 2,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 54,
+      "month": 7,
+      "serious_casualties": 61,
+      "serious_crashes": 54,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 46,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 33,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 3,
+      "month": 8,
+      "serious_casualties": 3,
+      "serious_crashes": 3,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 45,
+      "month": 8,
+      "serious_casualties": 56,
+      "serious_crashes": 45,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 59,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 37,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 2,
+      "month": 9,
+      "serious_casualties": 2,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 60,
+      "month": 9,
+      "serious_casualties": 70,
+      "serious_crashes": 60,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 61,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 23,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 1,
+      "month": 10,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 61,
+      "month": 10,
+      "serious_casualties": 75,
+      "serious_crashes": 61,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 49,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 31,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 1,
+      "month": 11,
+      "serious_casualties": 2,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 70,
+      "month": 11,
+      "serious_casualties": 85,
+      "serious_crashes": 70,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 52,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 30,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 1,
+      "month": 12,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 57,
+      "month": 12,
+      "serious_casualties": 69,
+      "serious_crashes": 57,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 40,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 26,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2023
+    },
+    {
+      "crashes": 1,
+      "month": 1,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 42,
+      "month": 1,
+      "serious_casualties": 46,
+      "serious_crashes": 42,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 36,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 32,
+      "month": 1,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 1,
+      "month": 2,
+      "serious_casualties": 1,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 50,
+      "month": 2,
+      "serious_casualties": 59,
+      "serious_crashes": 50,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 53,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 31,
+      "month": 2,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 3,
+      "month": 3,
+      "serious_casualties": 4,
+      "serious_crashes": 3,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 59,
+      "month": 3,
+      "serious_casualties": 76,
+      "serious_crashes": 59,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 56,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 34,
+      "month": 3,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 2,
+      "month": 4,
+      "serious_casualties": 2,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 57,
+      "month": 4,
+      "serious_casualties": 64,
+      "serious_crashes": 57,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 49,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 28,
+      "month": 4,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 50,
+      "month": 5,
+      "serious_casualties": 57,
+      "serious_crashes": 50,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 45,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 37,
+      "month": 5,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 3,
+      "month": 6,
+      "serious_casualties": 4,
+      "serious_crashes": 3,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 60,
+      "month": 6,
+      "serious_casualties": 73,
+      "serious_crashes": 60,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 49,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 48,
+      "month": 6,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 3,
+      "month": 7,
+      "serious_casualties": 3,
+      "serious_crashes": 3,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 73,
+      "month": 7,
+      "serious_casualties": 87,
+      "serious_crashes": 73,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 51,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 44,
+      "month": 7,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 1,
+      "month": 8,
+      "serious_casualties": 5,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 59,
+      "month": 8,
+      "serious_casualties": 65,
+      "serious_crashes": 59,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 51,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 31,
+      "month": 8,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 56,
+      "month": 9,
+      "serious_casualties": 64,
+      "serious_crashes": 56,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 58,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 37,
+      "month": 9,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 2,
+      "month": 10,
+      "serious_casualties": 4,
+      "serious_crashes": 2,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 69,
+      "month": 10,
+      "serious_casualties": 84,
+      "serious_crashes": 69,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 49,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 27,
+      "month": 10,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 1,
+      "month": 11,
+      "serious_casualties": 3,
+      "serious_crashes": 1,
+      "severity": "Fatal",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 54,
+      "month": 11,
+      "serious_casualties": 62,
+      "serious_crashes": 54,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 49,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 31,
+      "month": 11,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 49,
+      "month": 12,
+      "serious_casualties": 54,
+      "serious_crashes": 49,
+      "severity": "Hospitalisation",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 36,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Medical treatment",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    },
+    {
+      "crashes": 31,
+      "month": 12,
+      "serious_casualties": 0,
+      "serious_crashes": 0,
+      "severity": "Minor injury",
+      "snapshot_id": "8c293a52745057c4",
+      "year": 2024
+    }
+  ],
+  "period": [
+    2020,
+    2024
+  ],
+  "primary_method": "count baseline",
+  "quality": {
+    "analysis_crashes": 8142,
+    "grid_cells": 5774,
+    "missing_coordinates": 0,
+    "outside_current_boundary": 2,
+    "serious_casualties": 4079,
+    "serious_crashes": 3407,
+    "serious_outside_current_boundary": 2,
+    "serious_outside_grid": 0
+  },
+  "shortlist": [
+    {
+      "cell_id": "1062_13830",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 5,
+      "rank": 1,
+      "serious_count": 17,
+      "suburbs": "Helensvale, Oxenford"
+    },
+    {
+      "cell_id": "1062_13826",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 8,
+      "rank": 2,
+      "serious_count": 15,
+      "suburbs": "Helensvale, Oxenford"
+    },
+    {
+      "cell_id": "1084_13805",
+      "clipped_area_km2": 0.19017521240983212,
+      "density_count": 0,
+      "holdout_serious_count": 3,
+      "rank": 3,
+      "serious_count": 13,
+      "suburbs": "Surfers Paradise"
+    },
+    {
+      "cell_id": "1061_13832",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 4,
+      "serious_count": 11,
+      "suburbs": "Oxenford, Upper Coomera"
+    },
+    {
+      "cell_id": "1067_13816",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 6,
+      "rank": 5,
+      "serious_count": 11,
+      "suburbs": "Arundel, Gaven"
+    },
+    {
+      "cell_id": "1074_13810",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 6,
+      "serious_count": 11,
+      "suburbs": "Ashmore, Molendinar"
+    },
+    {
+      "cell_id": "1081_13811",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 2,
+      "rank": 7,
+      "serious_count": 11,
+      "suburbs": "Southport"
+    },
+    {
+      "cell_id": "1083_13797",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 2,
+      "rank": 8,
+      "serious_count": 11,
+      "suburbs": "Broadbeach Waters"
+    },
+    {
+      "cell_id": "1061_13835",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 9,
+      "serious_count": 10,
+      "suburbs": "Coomera, Upper Coomera"
+    },
+    {
+      "cell_id": "1067_13815",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 10,
+      "serious_count": 10,
+      "suburbs": "Gaven, Arundel"
+    },
+    {
+      "cell_id": "1073_13820",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 11,
+      "serious_count": 10,
+      "suburbs": "Coombabah, Arundel"
+    },
+    {
+      "cell_id": "1080_13814",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 4,
+      "rank": 12,
+      "serious_count": 10,
+      "suburbs": "Southport"
+    },
+    {
+      "cell_id": "1083_13805",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 13,
+      "serious_count": 10,
+      "suburbs": "Surfers Paradise"
+    },
+    {
+      "cell_id": "1084_13804",
+      "clipped_area_km2": 0.21448116171570586,
+      "density_count": 0,
+      "holdout_serious_count": 2,
+      "rank": 14,
+      "serious_count": 10,
+      "suburbs": "Surfers Paradise"
+    },
+    {
+      "cell_id": "1060_13836",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 15,
+      "serious_count": 9,
+      "suburbs": "Upper Coomera, Coomera"
+    },
+    {
+      "cell_id": "1066_13807",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 5,
+      "rank": 16,
+      "serious_count": 9,
+      "suburbs": "Nerang"
+    },
+    {
+      "cell_id": "1067_13810",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 2,
+      "rank": 17,
+      "serious_count": 9,
+      "suburbs": "Nerang, Gaven"
+    },
+    {
+      "cell_id": "1079_13811",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 2,
+      "rank": 18,
+      "serious_count": 9,
+      "suburbs": "Southport"
+    },
+    {
+      "cell_id": "1081_13805",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 2,
+      "rank": 19,
+      "serious_count": 9,
+      "suburbs": "Bundall, Southport"
+    },
+    {
+      "cell_id": "1084_13806",
+      "clipped_area_km2": 0.16968702078031375,
+      "density_count": 0,
+      "holdout_serious_count": 6,
+      "rank": 20,
+      "serious_count": 9,
+      "suburbs": "Surfers Paradise"
+    },
+    {
+      "cell_id": "1047_13859",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 21,
+      "serious_count": 8,
+      "suburbs": "Ormeau, Yatala"
+    },
+    {
+      "cell_id": "1050_13852",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 22,
+      "serious_count": 8,
+      "suburbs": "Ormeau"
+    },
+    {
+      "cell_id": "1060_13837",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 4,
+      "rank": 23,
+      "serious_count": 8,
+      "suburbs": "Coomera, Upper Coomera"
+    },
+    {
+      "cell_id": "1062_13831",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 3,
+      "rank": 24,
+      "serious_count": 8,
+      "suburbs": "Helensvale, Oxenford"
+    },
+    {
+      "cell_id": "1066_13806",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 25,
+      "serious_count": 8,
+      "suburbs": "Nerang"
+    },
+    {
+      "cell_id": "1066_13822",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 26,
+      "serious_count": 8,
+      "suburbs": "Helensvale"
+    },
+    {
+      "cell_id": "1072_13803",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 3,
+      "rank": 27,
+      "serious_count": 8,
+      "suburbs": "Carrara"
+    },
+    {
+      "cell_id": "1072_13809",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 28,
+      "serious_count": 8,
+      "suburbs": "Molendinar, Ashmore"
+    },
+    {
+      "cell_id": "1074_13813",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 29,
+      "serious_count": 8,
+      "suburbs": "Molendinar, Southport"
+    },
+    {
+      "cell_id": "1076_13810",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 30,
+      "serious_count": 8,
+      "suburbs": "Southport, Ashmore"
+    },
+    {
+      "cell_id": "1079_13782",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 31,
+      "serious_count": 8,
+      "suburbs": "Varsity Lakes, Reedy Creek"
+    },
+    {
+      "cell_id": "1080_13802",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 32,
+      "serious_count": 8,
+      "suburbs": "Bundall, Surfers Paradise"
+    },
+    {
+      "cell_id": "1080_13817",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 0,
+      "rank": 33,
+      "serious_count": 8,
+      "suburbs": "Labrador"
+    },
+    {
+      "cell_id": "1081_13813",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 3,
+      "rank": 34,
+      "serious_count": 8,
+      "suburbs": "Southport"
+    },
+    {
+      "cell_id": "1083_13783",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 4,
+      "rank": 35,
+      "serious_count": 8,
+      "suburbs": "Burleigh Waters, Burleigh Heads"
+    },
+    {
+      "cell_id": "1083_13786",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 2,
+      "rank": 36,
+      "serious_count": 8,
+      "suburbs": "Burleigh Waters, Varsity Lakes"
+    },
+    {
+      "cell_id": "1084_13801",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 37,
+      "serious_count": 8,
+      "suburbs": "Surfers Paradise, Broadbeach"
+    },
+    {
+      "cell_id": "1084_13803",
+      "clipped_area_km2": 0.23457420392269357,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 38,
+      "serious_count": 8,
+      "suburbs": "Surfers Paradise"
+    },
+    {
+      "cell_id": "1087_13788",
+      "clipped_area_km2": 0.23067031367384136,
+      "density_count": 0,
+      "holdout_serious_count": 3,
+      "rank": 39,
+      "serious_count": 8,
+      "suburbs": "Miami, Burleigh Heads"
+    },
+    {
+      "cell_id": "1045_13863",
+      "clipped_area_km2": 0.25,
+      "density_count": 0,
+      "holdout_serious_count": 1,
+      "rank": 40,
+      "serious_count": 7,
+      "suburbs": "Yatala, Stapylton"
+    }
+  ],
+  "snapshot_id": "8c293a52745057c4",
+  "uncertainty": {
+    "active_cell_coverage90": 0.9565714285714285,
+    "alpha": 0.1234958910914749,
+    "beta": 1.0255013544997738,
+    "coverage90": 0.969864911673017,
+    "exposure_years": 3,
+    "interval_note": "Discrete 90% central predictive intervals; condition on estimated prior hyperparameters.",
+    "mean_width90": 0.3060270176653966,
+    "predicted_test_zero_fraction": 0.9197982857570234,
+    "prior_sensitivity": [
+      {
+        "coverage90": 0.9736750952545895,
+        "mean_width90": 0.38811915483200554,
+        "prior_strength": 0.5
+      },
+      {
+        "coverage90": 0.969864911673017,
+        "mean_width90": 0.3060270176653966,
+        "prior_strength": 1
+      },
+      {
+        "coverage90": 0.9684793903706269,
+        "mean_width90": 0.27381364738482855,
+        "prior_strength": 2
+      }
+    ],
+    "rank_change_possible": false,
+    "reason": "Structural zero cells dominate municipal land; broad coverage does not validate road-site uncertainty.",
+    "test_zero_fraction": 0.9196397644613786,
+    "training_dispersion": 3.9253983788869404,
+    "training_zero_fraction": 0.8484586075510911,
+    "verdict": "rejected"
+  }
+}

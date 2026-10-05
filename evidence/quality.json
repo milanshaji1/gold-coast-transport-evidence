@@ -1,0 +1,1486 @@
+{
+  "accepted_rows": 45266,
+  "identical_duplicates": 0,
+  "missing_coordinates": 0,
+  "quarantined_rows": 0,
+  "snapshot_id": "8c293a52745057c4",
+  "source_rows": 45266,
+  "warehouse": {
+    "crashes": 45266,
+    "locations": 80,
+    "months": 294,
+    "serious_casualties": 17448
+  },
+  "year_month_counts": [
+    {
+      "crashes": 190,
+      "month": 1,
+      "year": 2001
+    },
+    {
+      "crashes": 133,
+      "month": 2,
+      "year": 2001
+    },
+    {
+      "crashes": 198,
+      "month": 3,
+      "year": 2001
+    },
+    {
+      "crashes": 163,
+      "month": 4,
+      "year": 2001
+    },
+    {
+      "crashes": 164,
+      "month": 5,
+      "year": 2001
+    },
+    {
+      "crashes": 186,
+      "month": 6,
+      "year": 2001
+    },
+    {
+      "crashes": 187,
+      "month": 7,
+      "year": 2001
+    },
+    {
+      "crashes": 176,
+      "month": 8,
+      "year": 2001
+    },
+    {
+      "crashes": 193,
+      "month": 9,
+      "year": 2001
+    },
+    {
+      "crashes": 212,
+      "month": 10,
+      "year": 2001
+    },
+    {
+      "crashes": 242,
+      "month": 11,
+      "year": 2001
+    },
+    {
+      "crashes": 203,
+      "month": 12,
+      "year": 2001
+    },
+    {
+      "crashes": 194,
+      "month": 1,
+      "year": 2002
+    },
+    {
+      "crashes": 172,
+      "month": 2,
+      "year": 2002
+    },
+    {
+      "crashes": 218,
+      "month": 3,
+      "year": 2002
+    },
+    {
+      "crashes": 222,
+      "month": 4,
+      "year": 2002
+    },
+    {
+      "crashes": 218,
+      "month": 5,
+      "year": 2002
+    },
+    {
+      "crashes": 171,
+      "month": 6,
+      "year": 2002
+    },
+    {
+      "crashes": 179,
+      "month": 7,
+      "year": 2002
+    },
+    {
+      "crashes": 240,
+      "month": 8,
+      "year": 2002
+    },
+    {
+      "crashes": 207,
+      "month": 9,
+      "year": 2002
+    },
+    {
+      "crashes": 187,
+      "month": 10,
+      "year": 2002
+    },
+    {
+      "crashes": 199,
+      "month": 11,
+      "year": 2002
+    },
+    {
+      "crashes": 187,
+      "month": 12,
+      "year": 2002
+    },
+    {
+      "crashes": 208,
+      "month": 1,
+      "year": 2003
+    },
+    {
+      "crashes": 176,
+      "month": 2,
+      "year": 2003
+    },
+    {
+      "crashes": 206,
+      "month": 3,
+      "year": 2003
+    },
+    {
+      "crashes": 192,
+      "month": 4,
+      "year": 2003
+    },
+    {
+      "crashes": 200,
+      "month": 5,
+      "year": 2003
+    },
+    {
+      "crashes": 193,
+      "month": 6,
+      "year": 2003
+    },
+    {
+      "crashes": 195,
+      "month": 7,
+      "year": 2003
+    },
+    {
+      "crashes": 217,
+      "month": 8,
+      "year": 2003
+    },
+    {
+      "crashes": 191,
+      "month": 9,
+      "year": 2003
+    },
+    {
+      "crashes": 213,
+      "month": 10,
+      "year": 2003
+    },
+    {
+      "crashes": 227,
+      "month": 11,
+      "year": 2003
+    },
+    {
+      "crashes": 196,
+      "month": 12,
+      "year": 2003
+    },
+    {
+      "crashes": 168,
+      "month": 1,
+      "year": 2004
+    },
+    {
+      "crashes": 205,
+      "month": 2,
+      "year": 2004
+    },
+    {
+      "crashes": 220,
+      "month": 3,
+      "year": 2004
+    },
+    {
+      "crashes": 169,
+      "month": 4,
+      "year": 2004
+    },
+    {
+      "crashes": 215,
+      "month": 5,
+      "year": 2004
+    },
+    {
+      "crashes": 182,
+      "month": 6,
+      "year": 2004
+    },
+    {
+      "crashes": 191,
+      "month": 7,
+      "year": 2004
+    },
+    {
+      "crashes": 209,
+      "month": 8,
+      "year": 2004
+    },
+    {
+      "crashes": 204,
+      "month": 9,
+      "year": 2004
+    },
+    {
+      "crashes": 193,
+      "month": 10,
+      "year": 2004
+    },
+    {
+      "crashes": 211,
+      "month": 11,
+      "year": 2004
+    },
+    {
+      "crashes": 194,
+      "month": 12,
+      "year": 2004
+    },
+    {
+      "crashes": 175,
+      "month": 1,
+      "year": 2005
+    },
+    {
+      "crashes": 185,
+      "month": 2,
+      "year": 2005
+    },
+    {
+      "crashes": 193,
+      "month": 3,
+      "year": 2005
+    },
+    {
+      "crashes": 188,
+      "month": 4,
+      "year": 2005
+    },
+    {
+      "crashes": 205,
+      "month": 5,
+      "year": 2005
+    },
+    {
+      "crashes": 199,
+      "month": 6,
+      "year": 2005
+    },
+    {
+      "crashes": 193,
+      "month": 7,
+      "year": 2005
+    },
+    {
+      "crashes": 201,
+      "month": 8,
+      "year": 2005
+    },
+    {
+      "crashes": 159,
+      "month": 9,
+      "year": 2005
+    },
+    {
+      "crashes": 190,
+      "month": 10,
+      "year": 2005
+    },
+    {
+      "crashes": 186,
+      "month": 11,
+      "year": 2005
+    },
+    {
+      "crashes": 178,
+      "month": 12,
+      "year": 2005
+    },
+    {
+      "crashes": 198,
+      "month": 1,
+      "year": 2006
+    },
+    {
+      "crashes": 152,
+      "month": 2,
+      "year": 2006
+    },
+    {
+      "crashes": 186,
+      "month": 3,
+      "year": 2006
+    },
+    {
+      "crashes": 155,
+      "month": 4,
+      "year": 2006
+    },
+    {
+      "crashes": 179,
+      "month": 5,
+      "year": 2006
+    },
+    {
+      "crashes": 180,
+      "month": 6,
+      "year": 2006
+    },
+    {
+      "crashes": 176,
+      "month": 7,
+      "year": 2006
+    },
+    {
+      "crashes": 164,
+      "month": 8,
+      "year": 2006
+    },
+    {
+      "crashes": 184,
+      "month": 9,
+      "year": 2006
+    },
+    {
+      "crashes": 159,
+      "month": 10,
+      "year": 2006
+    },
+    {
+      "crashes": 157,
+      "month": 11,
+      "year": 2006
+    },
+    {
+      "crashes": 169,
+      "month": 12,
+      "year": 2006
+    },
+    {
+      "crashes": 156,
+      "month": 1,
+      "year": 2007
+    },
+    {
+      "crashes": 155,
+      "month": 2,
+      "year": 2007
+    },
+    {
+      "crashes": 197,
+      "month": 3,
+      "year": 2007
+    },
+    {
+      "crashes": 179,
+      "month": 4,
+      "year": 2007
+    },
+    {
+      "crashes": 178,
+      "month": 5,
+      "year": 2007
+    },
+    {
+      "crashes": 197,
+      "month": 6,
+      "year": 2007
+    },
+    {
+      "crashes": 213,
+      "month": 7,
+      "year": 2007
+    },
+    {
+      "crashes": 184,
+      "month": 8,
+      "year": 2007
+    },
+    {
+      "crashes": 190,
+      "month": 9,
+      "year": 2007
+    },
+    {
+      "crashes": 202,
+      "month": 10,
+      "year": 2007
+    },
+    {
+      "crashes": 195,
+      "month": 11,
+      "year": 2007
+    },
+    {
+      "crashes": 180,
+      "month": 12,
+      "year": 2007
+    },
+    {
+      "crashes": 149,
+      "month": 1,
+      "year": 2008
+    },
+    {
+      "crashes": 191,
+      "month": 2,
+      "year": 2008
+    },
+    {
+      "crashes": 206,
+      "month": 3,
+      "year": 2008
+    },
+    {
+      "crashes": 183,
+      "month": 4,
+      "year": 2008
+    },
+    {
+      "crashes": 242,
+      "month": 5,
+      "year": 2008
+    },
+    {
+      "crashes": 196,
+      "month": 6,
+      "year": 2008
+    },
+    {
+      "crashes": 184,
+      "month": 7,
+      "year": 2008
+    },
+    {
+      "crashes": 212,
+      "month": 8,
+      "year": 2008
+    },
+    {
+      "crashes": 208,
+      "month": 9,
+      "year": 2008
+    },
+    {
+      "crashes": 231,
+      "month": 10,
+      "year": 2008
+    },
+    {
+      "crashes": 198,
+      "month": 11,
+      "year": 2008
+    },
+    {
+      "crashes": 202,
+      "month": 12,
+      "year": 2008
+    },
+    {
+      "crashes": 171,
+      "month": 1,
+      "year": 2009
+    },
+    {
+      "crashes": 182,
+      "month": 2,
+      "year": 2009
+    },
+    {
+      "crashes": 225,
+      "month": 3,
+      "year": 2009
+    },
+    {
+      "crashes": 208,
+      "month": 4,
+      "year": 2009
+    },
+    {
+      "crashes": 204,
+      "month": 5,
+      "year": 2009
+    },
+    {
+      "crashes": 226,
+      "month": 6,
+      "year": 2009
+    },
+    {
+      "crashes": 190,
+      "month": 7,
+      "year": 2009
+    },
+    {
+      "crashes": 204,
+      "month": 8,
+      "year": 2009
+    },
+    {
+      "crashes": 181,
+      "month": 9,
+      "year": 2009
+    },
+    {
+      "crashes": 201,
+      "month": 10,
+      "year": 2009
+    },
+    {
+      "crashes": 194,
+      "month": 11,
+      "year": 2009
+    },
+    {
+      "crashes": 184,
+      "month": 12,
+      "year": 2009
+    },
+    {
+      "crashes": 183,
+      "month": 1,
+      "year": 2010
+    },
+    {
+      "crashes": 164,
+      "month": 2,
+      "year": 2010
+    },
+    {
+      "crashes": 166,
+      "month": 3,
+      "year": 2010
+    },
+    {
+      "crashes": 195,
+      "month": 4,
+      "year": 2010
+    },
+    {
+      "crashes": 193,
+      "month": 5,
+      "year": 2010
+    },
+    {
+      "crashes": 176,
+      "month": 6,
+      "year": 2010
+    },
+    {
+      "crashes": 198,
+      "month": 7,
+      "year": 2010
+    },
+    {
+      "crashes": 206,
+      "month": 8,
+      "year": 2010
+    },
+    {
+      "crashes": 185,
+      "month": 9,
+      "year": 2010
+    },
+    {
+      "crashes": 219,
+      "month": 10,
+      "year": 2010
+    },
+    {
+      "crashes": 168,
+      "month": 11,
+      "year": 2010
+    },
+    {
+      "crashes": 194,
+      "month": 12,
+      "year": 2010
+    },
+    {
+      "crashes": 87,
+      "month": 1,
+      "year": 2011
+    },
+    {
+      "crashes": 122,
+      "month": 2,
+      "year": 2011
+    },
+    {
+      "crashes": 125,
+      "month": 3,
+      "year": 2011
+    },
+    {
+      "crashes": 139,
+      "month": 4,
+      "year": 2011
+    },
+    {
+      "crashes": 125,
+      "month": 5,
+      "year": 2011
+    },
+    {
+      "crashes": 97,
+      "month": 6,
+      "year": 2011
+    },
+    {
+      "crashes": 118,
+      "month": 7,
+      "year": 2011
+    },
+    {
+      "crashes": 114,
+      "month": 8,
+      "year": 2011
+    },
+    {
+      "crashes": 112,
+      "month": 9,
+      "year": 2011
+    },
+    {
+      "crashes": 122,
+      "month": 10,
+      "year": 2011
+    },
+    {
+      "crashes": 111,
+      "month": 11,
+      "year": 2011
+    },
+    {
+      "crashes": 119,
+      "month": 12,
+      "year": 2011
+    },
+    {
+      "crashes": 107,
+      "month": 1,
+      "year": 2012
+    },
+    {
+      "crashes": 115,
+      "month": 2,
+      "year": 2012
+    },
+    {
+      "crashes": 112,
+      "month": 3,
+      "year": 2012
+    },
+    {
+      "crashes": 127,
+      "month": 4,
+      "year": 2012
+    },
+    {
+      "crashes": 111,
+      "month": 5,
+      "year": 2012
+    },
+    {
+      "crashes": 114,
+      "month": 6,
+      "year": 2012
+    },
+    {
+      "crashes": 113,
+      "month": 7,
+      "year": 2012
+    },
+    {
+      "crashes": 100,
+      "month": 8,
+      "year": 2012
+    },
+    {
+      "crashes": 113,
+      "month": 9,
+      "year": 2012
+    },
+    {
+      "crashes": 121,
+      "month": 10,
+      "year": 2012
+    },
+    {
+      "crashes": 103,
+      "month": 11,
+      "year": 2012
+    },
+    {
+      "crashes": 115,
+      "month": 12,
+      "year": 2012
+    },
+    {
+      "crashes": 120,
+      "month": 1,
+      "year": 2013
+    },
+    {
+      "crashes": 94,
+      "month": 2,
+      "year": 2013
+    },
+    {
+      "crashes": 127,
+      "month": 3,
+      "year": 2013
+    },
+    {
+      "crashes": 93,
+      "month": 4,
+      "year": 2013
+    },
+    {
+      "crashes": 129,
+      "month": 5,
+      "year": 2013
+    },
+    {
+      "crashes": 106,
+      "month": 6,
+      "year": 2013
+    },
+    {
+      "crashes": 124,
+      "month": 7,
+      "year": 2013
+    },
+    {
+      "crashes": 125,
+      "month": 8,
+      "year": 2013
+    },
+    {
+      "crashes": 99,
+      "month": 9,
+      "year": 2013
+    },
+    {
+      "crashes": 123,
+      "month": 10,
+      "year": 2013
+    },
+    {
+      "crashes": 112,
+      "month": 11,
+      "year": 2013
+    },
+    {
+      "crashes": 96,
+      "month": 12,
+      "year": 2013
+    },
+    {
+      "crashes": 109,
+      "month": 1,
+      "year": 2014
+    },
+    {
+      "crashes": 101,
+      "month": 2,
+      "year": 2014
+    },
+    {
+      "crashes": 119,
+      "month": 3,
+      "year": 2014
+    },
+    {
+      "crashes": 128,
+      "month": 4,
+      "year": 2014
+    },
+    {
+      "crashes": 127,
+      "month": 5,
+      "year": 2014
+    },
+    {
+      "crashes": 131,
+      "month": 6,
+      "year": 2014
+    },
+    {
+      "crashes": 126,
+      "month": 7,
+      "year": 2014
+    },
+    {
+      "crashes": 114,
+      "month": 8,
+      "year": 2014
+    },
+    {
+      "crashes": 117,
+      "month": 9,
+      "year": 2014
+    },
+    {
+      "crashes": 109,
+      "month": 10,
+      "year": 2014
+    },
+    {
+      "crashes": 128,
+      "month": 11,
+      "year": 2014
+    },
+    {
+      "crashes": 104,
+      "month": 12,
+      "year": 2014
+    },
+    {
+      "crashes": 121,
+      "month": 1,
+      "year": 2015
+    },
+    {
+      "crashes": 104,
+      "month": 2,
+      "year": 2015
+    },
+    {
+      "crashes": 131,
+      "month": 3,
+      "year": 2015
+    },
+    {
+      "crashes": 109,
+      "month": 4,
+      "year": 2015
+    },
+    {
+      "crashes": 121,
+      "month": 5,
+      "year": 2015
+    },
+    {
+      "crashes": 107,
+      "month": 6,
+      "year": 2015
+    },
+    {
+      "crashes": 135,
+      "month": 7,
+      "year": 2015
+    },
+    {
+      "crashes": 124,
+      "month": 8,
+      "year": 2015
+    },
+    {
+      "crashes": 126,
+      "month": 9,
+      "year": 2015
+    },
+    {
+      "crashes": 126,
+      "month": 10,
+      "year": 2015
+    },
+    {
+      "crashes": 127,
+      "month": 11,
+      "year": 2015
+    },
+    {
+      "crashes": 113,
+      "month": 12,
+      "year": 2015
+    },
+    {
+      "crashes": 136,
+      "month": 1,
+      "year": 2016
+    },
+    {
+      "crashes": 117,
+      "month": 2,
+      "year": 2016
+    },
+    {
+      "crashes": 128,
+      "month": 3,
+      "year": 2016
+    },
+    {
+      "crashes": 129,
+      "month": 4,
+      "year": 2016
+    },
+    {
+      "crashes": 164,
+      "month": 5,
+      "year": 2016
+    },
+    {
+      "crashes": 118,
+      "month": 6,
+      "year": 2016
+    },
+    {
+      "crashes": 131,
+      "month": 7,
+      "year": 2016
+    },
+    {
+      "crashes": 111,
+      "month": 8,
+      "year": 2016
+    },
+    {
+      "crashes": 119,
+      "month": 9,
+      "year": 2016
+    },
+    {
+      "crashes": 169,
+      "month": 10,
+      "year": 2016
+    },
+    {
+      "crashes": 143,
+      "month": 11,
+      "year": 2016
+    },
+    {
+      "crashes": 119,
+      "month": 12,
+      "year": 2016
+    },
+    {
+      "crashes": 122,
+      "month": 1,
+      "year": 2017
+    },
+    {
+      "crashes": 155,
+      "month": 2,
+      "year": 2017
+    },
+    {
+      "crashes": 145,
+      "month": 3,
+      "year": 2017
+    },
+    {
+      "crashes": 120,
+      "month": 4,
+      "year": 2017
+    },
+    {
+      "crashes": 150,
+      "month": 5,
+      "year": 2017
+    },
+    {
+      "crashes": 135,
+      "month": 6,
+      "year": 2017
+    },
+    {
+      "crashes": 140,
+      "month": 7,
+      "year": 2017
+    },
+    {
+      "crashes": 133,
+      "month": 8,
+      "year": 2017
+    },
+    {
+      "crashes": 127,
+      "month": 9,
+      "year": 2017
+    },
+    {
+      "crashes": 149,
+      "month": 10,
+      "year": 2017
+    },
+    {
+      "crashes": 129,
+      "month": 11,
+      "year": 2017
+    },
+    {
+      "crashes": 113,
+      "month": 12,
+      "year": 2017
+    },
+    {
+      "crashes": 132,
+      "month": 1,
+      "year": 2018
+    },
+    {
+      "crashes": 133,
+      "month": 2,
+      "year": 2018
+    },
+    {
+      "crashes": 128,
+      "month": 3,
+      "year": 2018
+    },
+    {
+      "crashes": 120,
+      "month": 4,
+      "year": 2018
+    },
+    {
+      "crashes": 159,
+      "month": 5,
+      "year": 2018
+    },
+    {
+      "crashes": 138,
+      "month": 6,
+      "year": 2018
+    },
+    {
+      "crashes": 132,
+      "month": 7,
+      "year": 2018
+    },
+    {
+      "crashes": 152,
+      "month": 8,
+      "year": 2018
+    },
+    {
+      "crashes": 132,
+      "month": 9,
+      "year": 2018
+    },
+    {
+      "crashes": 137,
+      "month": 10,
+      "year": 2018
+    },
+    {
+      "crashes": 98,
+      "month": 11,
+      "year": 2018
+    },
+    {
+      "crashes": 143,
+      "month": 12,
+      "year": 2018
+    },
+    {
+      "crashes": 134,
+      "month": 1,
+      "year": 2019
+    },
+    {
+      "crashes": 136,
+      "month": 2,
+      "year": 2019
+    },
+    {
+      "crashes": 139,
+      "month": 3,
+      "year": 2019
+    },
+    {
+      "crashes": 143,
+      "month": 4,
+      "year": 2019
+    },
+    {
+      "crashes": 128,
+      "month": 5,
+      "year": 2019
+    },
+    {
+      "crashes": 127,
+      "month": 6,
+      "year": 2019
+    },
+    {
+      "crashes": 137,
+      "month": 7,
+      "year": 2019
+    },
+    {
+      "crashes": 143,
+      "month": 8,
+      "year": 2019
+    },
+    {
+      "crashes": 112,
+      "month": 9,
+      "year": 2019
+    },
+    {
+      "crashes": 148,
+      "month": 10,
+      "year": 2019
+    },
+    {
+      "crashes": 156,
+      "month": 11,
+      "year": 2019
+    },
+    {
+      "crashes": 111,
+      "month": 12,
+      "year": 2019
+    },
+    {
+      "crashes": 124,
+      "month": 1,
+      "year": 2020
+    },
+    {
+      "crashes": 121,
+      "month": 2,
+      "year": 2020
+    },
+    {
+      "crashes": 118,
+      "month": 3,
+      "year": 2020
+    },
+    {
+      "crashes": 70,
+      "month": 4,
+      "year": 2020
+    },
+    {
+      "crashes": 110,
+      "month": 5,
+      "year": 2020
+    },
+    {
+      "crashes": 115,
+      "month": 6,
+      "year": 2020
+    },
+    {
+      "crashes": 139,
+      "month": 7,
+      "year": 2020
+    },
+    {
+      "crashes": 134,
+      "month": 8,
+      "year": 2020
+    },
+    {
+      "crashes": 150,
+      "month": 9,
+      "year": 2020
+    },
+    {
+      "crashes": 139,
+      "month": 10,
+      "year": 2020
+    },
+    {
+      "crashes": 154,
+      "month": 11,
+      "year": 2020
+    },
+    {
+      "crashes": 140,
+      "month": 12,
+      "year": 2020
+    },
+    {
+      "crashes": 136,
+      "month": 1,
+      "year": 2021
+    },
+    {
+      "crashes": 154,
+      "month": 2,
+      "year": 2021
+    },
+    {
+      "crashes": 125,
+      "month": 3,
+      "year": 2021
+    },
+    {
+      "crashes": 144,
+      "month": 4,
+      "year": 2021
+    },
+    {
+      "crashes": 161,
+      "month": 5,
+      "year": 2021
+    },
+    {
+      "crashes": 153,
+      "month": 6,
+      "year": 2021
+    },
+    {
+      "crashes": 153,
+      "month": 7,
+      "year": 2021
+    },
+    {
+      "crashes": 134,
+      "month": 8,
+      "year": 2021
+    },
+    {
+      "crashes": 129,
+      "month": 9,
+      "year": 2021
+    },
+    {
+      "crashes": 132,
+      "month": 10,
+      "year": 2021
+    },
+    {
+      "crashes": 133,
+      "month": 11,
+      "year": 2021
+    },
+    {
+      "crashes": 118,
+      "month": 12,
+      "year": 2021
+    },
+    {
+      "crashes": 116,
+      "month": 1,
+      "year": 2022
+    },
+    {
+      "crashes": 141,
+      "month": 2,
+      "year": 2022
+    },
+    {
+      "crashes": 141,
+      "month": 3,
+      "year": 2022
+    },
+    {
+      "crashes": 146,
+      "month": 4,
+      "year": 2022
+    },
+    {
+      "crashes": 116,
+      "month": 5,
+      "year": 2022
+    },
+    {
+      "crashes": 142,
+      "month": 6,
+      "year": 2022
+    },
+    {
+      "crashes": 159,
+      "month": 7,
+      "year": 2022
+    },
+    {
+      "crashes": 138,
+      "month": 8,
+      "year": 2022
+    },
+    {
+      "crashes": 135,
+      "month": 9,
+      "year": 2022
+    },
+    {
+      "crashes": 119,
+      "month": 10,
+      "year": 2022
+    },
+    {
+      "crashes": 136,
+      "month": 11,
+      "year": 2022
+    },
+    {
+      "crashes": 137,
+      "month": 12,
+      "year": 2022
+    },
+    {
+      "crashes": 117,
+      "month": 1,
+      "year": 2023
+    },
+    {
+      "crashes": 109,
+      "month": 2,
+      "year": 2023
+    },
+    {
+      "crashes": 159,
+      "month": 3,
+      "year": 2023
+    },
+    {
+      "crashes": 136,
+      "month": 4,
+      "year": 2023
+    },
+    {
+      "crashes": 149,
+      "month": 5,
+      "year": 2023
+    },
+    {
+      "crashes": 128,
+      "month": 6,
+      "year": 2023
+    },
+    {
+      "crashes": 135,
+      "month": 7,
+      "year": 2023
+    },
+    {
+      "crashes": 144,
+      "month": 8,
+      "year": 2023
+    },
+    {
+      "crashes": 146,
+      "month": 9,
+      "year": 2023
+    },
+    {
+      "crashes": 142,
+      "month": 10,
+      "year": 2023
+    },
+    {
+      "crashes": 153,
+      "month": 11,
+      "year": 2023
+    },
+    {
+      "crashes": 124,
+      "month": 12,
+      "year": 2023
+    },
+    {
+      "crashes": 111,
+      "month": 1,
+      "year": 2024
+    },
+    {
+      "crashes": 135,
+      "month": 2,
+      "year": 2024
+    },
+    {
+      "crashes": 152,
+      "month": 3,
+      "year": 2024
+    },
+    {
+      "crashes": 136,
+      "month": 4,
+      "year": 2024
+    },
+    {
+      "crashes": 132,
+      "month": 5,
+      "year": 2024
+    },
+    {
+      "crashes": 160,
+      "month": 6,
+      "year": 2024
+    },
+    {
+      "crashes": 171,
+      "month": 7,
+      "year": 2024
+    },
+    {
+      "crashes": 142,
+      "month": 8,
+      "year": 2024
+    },
+    {
+      "crashes": 151,
+      "month": 9,
+      "year": 2024
+    },
+    {
+      "crashes": 147,
+      "month": 10,
+      "year": 2024
+    },
+    {
+      "crashes": 135,
+      "month": 11,
+      "year": 2024
+    },
+    {
+      "crashes": 116,
+      "month": 12,
+      "year": 2024
+    },
+    {
+      "crashes": 105,
+      "month": 1,
+      "year": 2025
+    },
+    {
+      "crashes": 112,
+      "month": 2,
+      "year": 2025
+    },
+    {
+      "crashes": 129,
+      "month": 3,
+      "year": 2025
+    },
+    {
+      "crashes": 134,
+      "month": 4,
+      "year": 2025
+    },
+    {
+      "crashes": 178,
+      "month": 5,
+      "year": 2025
+    },
+    {
+      "crashes": 127,
+      "month": 6,
+      "year": 2025
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "transport": "real MCP stdio",
+  "elapsed_seconds": 1.3270651249913499,
+  "calls": [
+    {
+      "request": {
+        "name": "aggregate_stats",
+        "arguments": {
+          "start_year": 2024,
+          "end_year": 2024
+        }
+      },
+      "response": {
+        "meta": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"snapshot_id\": \"8c293a52745057c4\",\n  \"period\": [\n    2024,\n    2024\n  ],\n  \"filters\": {\n    \"severity\": \"All\"\n  },\n  \"metric_definitions\": {\n    \"crashes\": \"distinct casualty crash events\",\n    \"serious_crashes\": \"Fatal or Hospitalisation crash events\",\n    \"serious_casualties\": \"fatal plus hospitalised people\"\n  },\n  \"source_locators\": [\n    \"evidence/results.json\",\n    \"evidence/source-manifest.json\"\n  ],\n  \"status\": \"ok\",\n  \"crashes\": 1688,\n  \"serious_crashes\": 695,\n  \"serious_casualties\": 818\n}",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structured_content": null,
+        "is_error": false,
+        "result_type": "complete"
+      }
+    },
+    {
+      "request": {
+        "name": "quality_provenance",
+        "arguments": {}
+      },
+      "response": {
+        "meta": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"snapshot_id\": \"8c293a52745057c4\",\n  \"period\": [\n    2020,\n    2024\n  ],\n  \"filters\": {},\n  \"metric_definitions\": {\n    \"crashes\": \"distinct casualty crash events\",\n    \"serious_crashes\": \"Fatal or Hospitalisation crash events\",\n    \"serious_casualties\": \"fatal plus hospitalised people\"\n  },\n  \"source_locators\": [\n    \"evidence/results.json\",\n    \"evidence/source-manifest.json\"\n  ],\n  \"quality\": {\n    \"analysis_crashes\": 8142,\n    \"grid_cells\": 5774,\n    \"missing_coordinates\": 0,\n    \"outside_current_boundary\": 2,\n    \"serious_casualties\": 4079,\n    \"serious_crashes\": 3407,\n    \"serious_outside_current_boundary\": 2,\n    \"serious_outside_grid\": 0\n  },\n  \"limitations\": [\n    \"Current revised source snapshot, not historical as-of data\",\n    \"No traffic exposure denominator\",\n    \"Current boundary may disagree with source jurisdiction\",\n    \"Independent project; no council endorsement\"\n  ]\n}",
+            "annotations": null,
+            "meta": null
+          }
+        ],
+        "structured_content": null,
+        "is_error": false,
+        "result_type": "complete"
+      }
+    }
+  ]
+}

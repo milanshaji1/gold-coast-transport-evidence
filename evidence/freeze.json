@@ -1,0 +1,128 @@
+{
+  "contract": {
+    "baseline_tie": "serious_count DESC, cell_id ASC",
+    "dbscan_tie": "density_count DESC, serious_count DESC, cell_id ASC",
+    "denominator": "All geocoded source-LGA serious crashes, including boundary disagreements",
+    "eps_candidates": [
+      100,
+      250,
+      500
+    ],
+    "fit_years": [
+      2020,
+      2021,
+      2022
+    ],
+    "grid_hash": "ccd649603fe9a33b443795c77bb87de73238e51bc925d747f8491eda8a959a29",
+    "grid_size_m": 500,
+    "holdout_year": 2024,
+    "k": 20,
+    "min_samples_candidates": [
+      5,
+      10
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "refit_years": [
+      2021,
+      2022,
+      2023
+    ],
+    "sensitivity_k": [
+      10,
+      40
+    ],
+    "snapshot_id": "8c293a52745057c4",
+    "validation_year": 2023
+  },
+  "selected": {
+    "eps": 250,
+    "min_samples": 5
+  },
+  "validation_baseline": {
+    "capture_pct": 8.213256484149856,
+    "clipped_area_km2": 4.940175212409832,
+    "denominator": 694,
+    "k": 20,
+    "nominal_area_km2": 5.0,
+    "numerator": 57,
+    "zero_count_cells": 0,
+    "zero_density_cells": 20
+  },
+  "validation_candidates": [
+    {
+      "capture_pct": 5.619596541786744,
+      "clipped_area_km2": 5.0,
+      "denominator": 694,
+      "eps": 100,
+      "k": 20,
+      "min_samples": 5,
+      "nominal_area_km2": 5.0,
+      "numerator": 39,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    },
+    {
+      "capture_pct": 8.213256484149856,
+      "clipped_area_km2": 4.940175212409832,
+      "denominator": 694,
+      "eps": 100,
+      "k": 20,
+      "min_samples": 10,
+      "nominal_area_km2": 5.0,
+      "numerator": 57,
+      "zero_count_cells": 0,
+      "zero_density_cells": 20
+    },
+    {
+      "capture_pct": 8.357348703170029,
+      "clipped_area_km2": 4.940175212409832,
+      "denominator": 694,
+      "eps": 250,
+      "k": 20,
+      "min_samples": 5,
+      "nominal_area_km2": 5.0,
+      "numerator": 58,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    },
+    {
+      "capture_pct": 7.636887608069165,
+      "clipped_area_km2": 4.940175212409832,
+      "denominator": 694,
+      "eps": 250,
+      "k": 20,
+      "min_samples": 10,
+      "nominal_area_km2": 5.0,
+      "numerator": 53,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    },
+    {
+      "capture_pct": 8.213256484149856,
+      "clipped_area_km2": 4.940175212409832,
+      "denominator": 694,
+      "eps": 500,
+      "k": 20,
+      "min_samples": 5,
+      "nominal_area_km2": 5.0,
+      "numerator": 57,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    },
+    {
+      "capture_pct": 8.213256484149856,
+      "clipped_area_km2": 4.940175212409832,
+      "denominator": 694,
+      "eps": 500,
+      "k": 20,
+      "min_samples": 10,
+      "nominal_area_km2": 5.0,
+      "numerator": 57,
+      "zero_count_cells": 0,
+      "zero_density_cells": 0
+    }
+  ]
+}

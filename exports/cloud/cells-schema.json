@@ -1,0 +1,22 @@
+[
+  {
+    "name": "cell_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "clipped_area_km2",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "geometry_wkt",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "snapshot_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

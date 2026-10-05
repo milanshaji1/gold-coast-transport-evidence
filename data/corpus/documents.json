@@ -1,0 +1,46 @@
+[
+  {
+    "id": "crash-coverage",
+    "title": "Crash source coverage and preliminary data",
+    "text": "**Overview:**\r\n\r\nInformation on location and characteristics of casualty crashes in Queensland for all reported Road Traffic Crashes that occurred from 1 January 2001 to 30 June 2025. \r\n\r\nFatal, Hospitalisation, Medical treatment and Minor injury:\r\nThis dataset contains information on crashes reported to the police which resulted from the movement of at least 1 road vehicle on a road or road related area. Crashes listed in this resource have occurred on a public road and meet one of the following criteria:\r\n\u2022\ta person is killed or injured, or\r\n\u2022\tat least 1 vehicle was towed away, or\r\n\u2022\tthe value of the property damage meets the appropriate criteria listed below.\r\n\r\nProperty damage:\r\n1.\t$2500 or more damage to property other than vehicles (after 1 December 1999)\r\n2.\t$2500 or more damage to vehicle and/or other property (after 1 December 1991 and before 1 December 1999)\r\n3.\tvalue of property damage is greater than $1000 (before December 1991).\r\n\r\nPlease note:\r\n\u2022\tThis data has been extracted from the Queensland RoadCrash database.\r\n\u2022\tInformation held in the RoadCrash database on events occurring within the last 12 months is considered preliminary as investigations into crashes can take up to 1 year to finalise.\r\n\u2022\tProperty damage only crashes ceased to be reported/recorded by Queensland Police Service after 31 December 2010.\r\n\u2022\tThese crash location coordinates reference the current Australian geodetic datum is GDA2020 (previously it was GDA94).\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nReportable data status\r\nThe Department of Transport and Main Roads (TMR) is able to provide full characteristics and details (including contributing factors) of Queensland crash data for:\r\n\u2022\tFatal crashes to 31 October 2025.\r\n\u2022\tNon-fatal casualty crashes to 31 July 2025.\r\n",
+    "url": "https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads",
+    "locator": "Dataset overview and reportable data status",
+    "status": "current",
+    "checked_date": "2026-10-05",
+    "publication_date": null,
+    "sha256": "c1911d1723906b2878bfe7c4a397d0b91ed5076eaa08cedc872ccdb6f6f30b9a"
+  },
+  {
+    "id": "crash-coordinates",
+    "title": "Crash coordinates and identifiers",
+    "text": "Crash latitude and longitude reference GDA2020. Crash reference numbers may not persist across source releases. Use source year fields for temporal analysis.",
+    "url": "https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/e88943c0-5968-4972-a15f-38e120d72ec0",
+    "locator": "Resource data dictionary; paraphrase",
+    "status": "current",
+    "checked_date": "2026-10-05",
+    "publication_date": null,
+    "sha256": "5a274bd916748f54ea77757432ed1c13d89367eb6dff19423a0f0777d684b8cb"
+  },
+  {
+    "id": "policy-transition",
+    "title": "Road Safety Policy transition",
+    "text": "The 2022 organisational policy and its fact sheets were withdrawn on 2 February 2026. Current practice is addressed through technical guidance and project governance. Consult the Queensland Guide to Road Safety, traffic-management guidance and Safe System assessment guidance. Earlier approvals retain their documented requirements.",
+    "url": "https://www.tmr.qld.gov.au/Safety/Road-safety/Road-Safety-Policy",
+    "locator": "Withdrawal notice, guidance table and transitional arrangements; paraphrase",
+    "status": "current",
+    "checked_date": "2026-10-05",
+    "publication_date": null,
+    "sha256": "48e21b4229c4a9c2e75b8675c235e2c6393aecd77611fe9f86e414af9d11cb08"
+  },
+  {
+    "id": "safe-system-controls",
+    "title": "Safe System project controls",
+    "text": "TMR project managers track infrastructure projects against Safe System performance through the applicable project-management assessment and approval stages. A crash-count shortlist alone does not establish an engineering treatment.",
+    "url": "https://www.tmr.qld.gov.au/Safety/Road-safety/Road-Safety-Policy",
+    "locator": "Safe System Project Management Controls; last sentence is project limitation",
+    "status": "current",
+    "checked_date": "2026-10-05",
+    "publication_date": null,
+    "sha256": "16b31f47f25fdaf721bc82f55e80776052fd03ca20d2d41ae3e63de892ed318b"
+  }
+]

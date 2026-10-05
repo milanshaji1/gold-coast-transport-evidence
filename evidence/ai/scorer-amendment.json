@@ -1,0 +1,13 @@
+{
+  "files": {
+    "evidence/ai/final-tool-results-original-scoring.json": "c019464ee8891b61209dcb209a7258f3fb724a2d0322f13e56478e35cec4c2af",
+    "evidence/ai/final-tool-results.json": "ae2164154b09861282489014bf38db09512db045e32444fc407d8c67dc7e4ecd",
+    "evidence/ai/system-freeze.json": "c3269872b3559ea0704e1830d5a947b954ea8a1b9dbb56dfea39e86d51f82661",
+    "evidence/results.json": "10506948d84139f3d27f92323d989160726d3f577e23ebd3cf1f9a5ea5e36023",
+    "requirements.lock": "98bc8ed5c1be7644d3664e708fbe95c4f0bba3a2a1dc611871d9689de85b0941",
+    "src/transport/eval_tools.py": "cc95a17873403b385b4205afd19e265a094c3a643d5a48f6f896a78fdf5a512a"
+  },
+  "kind": "post-evaluation scorer and evidence preservation amendment",
+  "reason": "Original 17/30 score used isError; recorded responses rescored using MCP v2 is_error yielded 29/30. Runtime tools/retriever and cases remain matched to original system-freeze. Replays are labelled regression, never new held-out tests.",
+  "recorded_utc": "2026-10-05T09:09:51.149355+00:00"
+}

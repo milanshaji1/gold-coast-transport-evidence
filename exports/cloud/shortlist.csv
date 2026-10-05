@@ -1,0 +1,41 @@
+cell_id,clipped_area_km2,serious_count,density_count,rank,suburbs,holdout_serious_count
+1062_13830,0.25,17,0,1,"Helensvale, Oxenford",5
+1062_13826,0.25,15,0,2,"Helensvale, Oxenford",8
+1084_13805,0.19017521240983212,13,0,3,Surfers Paradise,3
+1061_13832,0.25,11,0,4,"Oxenford, Upper Coomera",1
+1067_13816,0.25,11,0,5,"Arundel, Gaven",6
+1074_13810,0.25,11,0,6,"Ashmore, Molendinar",1
+1081_13811,0.25,11,0,7,Southport,2
+1083_13797,0.25,11,0,8,Broadbeach Waters,2
+1061_13835,0.25,10,0,9,"Coomera, Upper Coomera",1
+1067_13815,0.25,10,0,10,"Gaven, Arundel",1
+1073_13820,0.25,10,0,11,"Coombabah, Arundel",1
+1080_13814,0.25,10,0,12,Southport,4
+1083_13805,0.25,10,0,13,Surfers Paradise,0
+1084_13804,0.21448116171570586,10,0,14,Surfers Paradise,2
+1060_13836,0.25,9,0,15,"Upper Coomera, Coomera",1
+1066_13807,0.25,9,0,16,Nerang,5
+1067_13810,0.25,9,0,17,"Nerang, Gaven",2
+1079_13811,0.25,9,0,18,Southport,2
+1081_13805,0.25,9,0,19,"Bundall, Southport",2
+1084_13806,0.16968702078031375,9,0,20,Surfers Paradise,6
+1047_13859,0.25,8,0,21,"Ormeau, Yatala",0
+1050_13852,0.25,8,0,22,Ormeau,1
+1060_13837,0.25,8,0,23,"Coomera, Upper Coomera",4
+1062_13831,0.25,8,0,24,"Helensvale, Oxenford",3
+1066_13806,0.25,8,0,25,Nerang,0
+1066_13822,0.25,8,0,26,Helensvale,0
+1072_13803,0.25,8,0,27,Carrara,3
+1072_13809,0.25,8,0,28,"Molendinar, Ashmore",0
+1074_13813,0.25,8,0,29,"Molendinar, Southport",0
+1076_13810,0.25,8,0,30,"Southport, Ashmore",0
+1079_13782,0.25,8,0,31,"Varsity Lakes, Reedy Creek",0
+1080_13802,0.25,8,0,32,"Bundall, Surfers Paradise",1
+1080_13817,0.25,8,0,33,Labrador,0
+1081_13813,0.25,8,0,34,Southport,3
+1083_13783,0.25,8,0,35,"Burleigh Waters, Burleigh Heads",4
+1083_13786,0.25,8,0,36,"Burleigh Waters, Varsity Lakes",2
+1084_13801,0.25,8,0,37,"Surfers Paradise, Broadbeach",1
+1084_13803,0.23457420392269357,8,0,38,Surfers Paradise,1
+1087_13788,0.23067031367384136,8,0,39,"Miami, Burleigh Heads",3
+1045_13863,0.25,7,0,40,"Yatala, Stapylton",1

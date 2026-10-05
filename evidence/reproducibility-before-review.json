@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "code_commit": "aa5300111af702117cebc401cc8df9861f0dafb6",
+  "snapshot_id": "8c293a52745057c4",
+  "release_sha256": "62661bb1f4116e86be3249173d263aded3a21d110a592fd0f47a2d1ed6e65a55",
+  "result_sha256": "10506948d84139f3d27f92323d989160726d3f577e23ebd3cf1f9a5ea5e36023",
+  "same_as_recorded": true,
+  "commands": [
+    {
+      "command": "python -m transport.acquire data/raw/20261004T151205Z",
+      "exit_code": 0,
+      "seconds": 2.153
+    },
+    {
+      "command": "python -m transport.pipeline freeze",
+      "exit_code": 0,
+      "seconds": 2.916
+    },
+    {
+      "command": "python -m transport.pipeline evaluate",
+      "exit_code": 0,
+      "seconds": 3.115
+    },
+    {
+      "command": "python -m transport.exports",
+      "exit_code": 0,
+      "seconds": 0.029
+    }
+  ],
+  "scope": "Fresh code extraction and frozen data archive, existing pinned runtime reused; no upstream network calls."
+}

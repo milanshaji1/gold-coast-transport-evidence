@@ -1,0 +1,16 @@
+{
+  "files": {
+    "evidence/freeze.json": "bbfae854fc8333142b01fb72913448b0cbdd75589fb0a5fd2744207eba70e5be",
+    "raw_manifest": "200ede5dcfce699f65caf24d229dbec3803bfd0c7a5de3c82245c19666bb65a7",
+    "requirements.lock": "98bc8ed5c1be7644d3664e708fbe95c4f0bba3a2a1dc611871d9689de85b0941",
+    "src/transport/acquire.py": "6c0c902b856ce5a0a86699069d2f75bc96463d922d8a99f642405c81a65d23d6",
+    "src/transport/analysis.py": "2f65f3a90b0a19dfd875583c71859d56089bdb2fa340687c8b2dfe03ebd8ee56",
+    "src/transport/evaluate.py": "b0bf0e883475e26dfbf8d7c6ff93a8b12e6dc309b5787f281a7b723c29b0f3e2",
+    "src/transport/ingest.py": "9ab533c07ccdb766be3ed5b1bf7420376b9e369acb0b4c863e0f34dcfa3f7ba3",
+    "src/transport/integrity.py": "99937512f1bdab04feacdaef6d63ddc620b2085c060cb3f512786de6b2d941b9",
+    "src/transport/pipeline.py": "903969d3a003cd6ebd1e82d0a3cc11a22d4088b2ce54f02bdc9b9fb2b595578b",
+    "src/transport/spatial.py": "11b27115772b9f599d35076ef8b397b6e19e19a1598a90b5db994be8d247aaf9"
+  },
+  "phase": "post-holdout review amendment: protects replays; original pre-holdout freeze remains in commit 43726a8",
+  "recorded_utc": "2026-10-05T09:09:51.146952+00:00"
+}

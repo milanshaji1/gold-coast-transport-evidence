@@ -1,0 +1,23 @@
+{
+  "snapshot_id": "8c293a52745057c4",
+  "events": 8142,
+  "cells": 5774,
+  "serious_events": 3407,
+  "serious_casualties": 4079,
+  "projection": "EPSG:7856 to EPSG:4326",
+  "cell_geometry": "full 500m grid square; clipped area retained separately",
+  "files": {
+    "monthly.csv": {
+      "sha256": "8d5d7350359cc1dd1935e1aea5b1efa6c419fc0936483c62d28314336d35b563",
+      "bytes": 10201
+    },
+    "events.csv": {
+      "sha256": "15350d63f0220f87469763d7f4d22382f3f92ecf63a33c0d7ac8ff944df08256",
+      "bytes": 872492
+    },
+    "cells.csv": {
+      "sha256": "969bdd737942a6dea718dd0f7e6cc92b00003da9b43726e626e7804180576bbd",
+      "bytes": 931419
+    }
+  }
+}

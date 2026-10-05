@@ -1,0 +1,16 @@
+[{
+  "crash_events": "8142",
+  "unique_events": "8142",
+  "serious_crash_events": "3407",
+  "serious_casualties": "4079",
+  "grid_cells": "5774",
+  "unique_cells": "5774",
+  "invalid_cell_geometries": "0",
+  "spatially_matched_events": "8142",
+  "spatial_assignment_mismatches": "0",
+  "monthly_grain_mismatches": "0",
+  "heldout_serious_in_top20": "55",
+  "heldout_serious_denominator": "695",
+  "event_snapshots": "1",
+  "snapshot_id": "8c293a52745057c4"
+}]

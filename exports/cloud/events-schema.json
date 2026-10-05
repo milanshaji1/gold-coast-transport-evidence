@@ -1,0 +1,57 @@
+[
+  {
+    "name": "crash_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "year",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "month",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "severity",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "serious",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "serious_casualties",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "cell_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "within_current_boundary",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "longitude_wgs84",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latitude_wgs84",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "snapshot_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

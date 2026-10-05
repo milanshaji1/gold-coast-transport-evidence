@@ -1,0 +1,119 @@
+{
+  "verified_date": "2026-10-05",
+  "timezone": "Australia/Brisbane",
+  "snapshot_id": "8c293a52745057c4",
+  "power_bi": {
+    "status": "executed",
+    "report": "Gold Coast transport evidence \u2014 2020\u20132024",
+    "import": "Power Query web: paste the 223 monthly CSV rows, promote headers, explicit types",
+    "numeric_types": {
+      "year": "Int64.Type",
+      "month": "Int64.Type",
+      "crashes": "Int64.Type",
+      "serious_crashes": "Int64.Type",
+      "serious_casualties": "Int64.Type"
+    },
+    "text_types": [
+      "severity",
+      "snapshot_id"
+    ],
+    "aggregations": "Implicit SUM for three event/person metrics; year is not summarised",
+    "filters": [
+      "page year (basic filtering)",
+      "page severity (basic filtering)"
+    ],
+    "checks": {
+      "all": [
+        8142,
+        3407,
+        4079
+      ],
+      "2024": [
+        1688,
+        695,
+        818
+      ],
+      "Fatal_all_years": [
+        81,
+        81,
+        117
+      ]
+    },
+    "measure_order": [
+      "casualty crashes",
+      "serious crash events",
+      "serious casualties"
+    ],
+    "saved": true,
+    "public_sharing": false,
+    "limits": [
+      "One monthly aggregate table; descriptive year/severity report",
+      "No Power BI spatial map, custom DAX measure or relationship claim",
+      "PDF export has not been verified; screenshots are retained",
+      "Account access is required for the live report"
+    ]
+  },
+  "bigquery": {
+    "status": "executed",
+    "dataset": "transport_evidence",
+    "location": "australia-southeast1",
+    "mode": "sandbox",
+    "default_table_expiry_days": 60,
+    "tables": {
+      "monthly": 223,
+      "events": 8142,
+      "cells": 5774
+    },
+    "monthly_job": {
+      "duration_ms": 593,
+      "bytes_processed_display": "15.85 KB",
+      "bytes_billed_display": "10 MB",
+      "created_aest": "2026-10-05 20:30:03"
+    },
+    "spatial_job": {
+      "duration_ms": 806,
+      "bytes_processed_display": "1.52 MB",
+      "bytes_billed_display": "30 MB",
+      "created_aest": "2026-10-05 20:44:03"
+    },
+    "billing_upgrade_accepted": false,
+    "spatial_result": [
+      {
+        "crash_events": "8142",
+        "unique_events": "8142",
+        "serious_crash_events": "3407",
+        "serious_casualties": "4079",
+        "grid_cells": "5774",
+        "unique_cells": "5774",
+        "invalid_cell_geometries": "0",
+        "spatially_matched_events": "8142",
+        "spatial_assignment_mismatches": "0",
+        "monthly_grain_mismatches": "0",
+        "heldout_serious_in_top20": "55",
+        "heldout_serious_denominator": "695",
+        "event_snapshots": "1",
+        "snapshot_id": "8c293a52745057c4"
+      }
+    ],
+    "limits": [
+      "Geographic polygons approximate transformed full grid squares; every actual snapshot point has one matching cell",
+      "Local MGA half-open assignment remains the analytical contract",
+      "Cloud tables expire; preserve the local CSV and SQL reload pack"
+    ]
+  },
+  "live_ai": "deferred by user",
+  "publication": "Public copy prepared 5 October 2026; account identifiers omitted; recorded execution results unchanged.",
+  "personal_walkthrough": "not yet recorded",
+  "local_verification": {
+    "python_tests": 49,
+    "node_tests": 2,
+    "test_date": "2026-10-05",
+    "python_warning": "joblib physical-core detection fell back to logical cores",
+    "commands": [
+      ".venv/bin/python -m pytest -q",
+      "node --test site/metrics.test.js",
+      "git diff --check"
+    ]
+  },
+  "redaction_note": "Original account evidence retained locally. This public record omits project, report, model and job identifiers. Account screenshots are not included."
+}

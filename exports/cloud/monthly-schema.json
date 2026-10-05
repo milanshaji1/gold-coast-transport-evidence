@@ -1,0 +1,37 @@
+[
+  {
+    "name": "year",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "month",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "severity",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "crashes",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "serious_crashes",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "serious_casualties",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "snapshot_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
