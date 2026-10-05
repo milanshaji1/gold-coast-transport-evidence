@@ -10,6 +10,7 @@ def test_export_preserves_canonical_counts_and_rejects_nan(tmp_path):
     (source/'results.json').write_text(json.dumps({'snapshot_id':'test','monthly':[{'crashes':7}],'shortlist':[{'cell_id':'1_2'}]}))
     for f in ['boundary.geojson','shortlist.geojson']: (source/f).write_text('{"type":"FeatureCollection","features":[]}')
     (source/'clusters.geojson').write_text('{"type":"FeatureCollection","features":[],"snapshot_id":"test"}')
+    (source/'roads.json').write_text('{"snapshot_id":"test","cells":{}}')
     manifest=tmp_path/'manifest.json'; manifest.write_text('{"snapshot_id":"test"}')
     export_site(source,tmp_path/'web',manifest)
     assert json.loads((tmp_path/'web/results.json').read_text())['monthly'][0]['crashes']==7
@@ -29,3 +30,13 @@ def test_real_snapshot_exports_reconcile_with_independent_curated_event_counts()
     assert int(csv.serious_casualties.sum())==int(f.serious_casualties.sum())==4079
     geo=json.loads((root/'exports/shortlist.geojson').read_text())
     assert {x['properties']['cell_id'] for x in geo['features']}=={x['cell_id'] for x in r['shortlist']}
+
+
+def test_export_rejects_road_context_from_another_snapshot(tmp_path):
+    source=tmp_path/'source'; source.mkdir()
+    (source/'results.json').write_text(json.dumps({'snapshot_id':'test','monthly':[],'shortlist':[]}))
+    for f in ['boundary.geojson','shortlist.geojson']: (source/f).write_text('{"type":"FeatureCollection","features":[]}')
+    (source/'clusters.geojson').write_text('{"type":"FeatureCollection","features":[],"snapshot_id":"test"}')
+    (source/'roads.json').write_text('{"snapshot_id":"other","cells":{}}')
+    manifest=tmp_path/'manifest.json'; manifest.write_text('{"snapshot_id":"test"}')
+    with pytest.raises(ValueError,match='road export'): export_site(source,tmp_path/'web',manifest)

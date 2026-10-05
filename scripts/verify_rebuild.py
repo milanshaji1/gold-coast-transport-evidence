@@ -19,7 +19,7 @@ with tempfile.TemporaryDirectory(prefix='transport-clean-rebuild-') as td:
     env=dict(os.environ,PYTHONPATH=str(target/'src'))
     commands=[['-m','transport.acquire',(target/'evidence/snapshot-path.txt').read_text().strip()],
               ['-m','transport.pipeline','freeze'],['-m','transport.pipeline','evaluate'],
-              ['-m','transport.map_layers'],['-m','transport.exports']]
+              ['-m','transport.map_layers'],['-m','transport.roads'],['-m','transport.exports']]
     executions=[]
     for args in commands:
         started=time.monotonic()

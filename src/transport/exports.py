@@ -10,10 +10,11 @@ def strict_json(path):
 
 def export_site(source,target,manifest):
     source,target,manifest=Path(source),Path(target),Path(manifest)
-    parsed={name:strict_json(source/name) for name in ['results.json','boundary.geojson','shortlist.geojson','clusters.geojson']}
+    parsed={name:strict_json(source/name) for name in ['results.json','boundary.geojson','shortlist.geojson','clusters.geojson','roads.json']}
     parsed['source-manifest.json']=strict_json(manifest)
     result=parsed['results.json']
     if parsed['clusters.geojson'].get('snapshot_id')!=result['snapshot_id']: raise ValueError('cluster export snapshot mismatch')
+    if parsed['roads.json'].get('snapshot_id')!=result['snapshot_id']: raise ValueError('road export snapshot mismatch')
     if parsed['source-manifest.json']['snapshot_id']!=result['snapshot_id']: raise ValueError('export snapshot mismatch')
     validated={name:json.dumps(content,allow_nan=False,separators=(',',':'))+'\n' for name,content in parsed.items()}
     # Recreate CSVs from the same canonical result, never from stale copies.

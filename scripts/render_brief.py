@@ -27,11 +27,12 @@ for block in source.strip().split('\n\n'):
 page = '''<!doctype html>
 <html lang="en-AU"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Decision brief | Gold Coast transport evidence</title>
-<link rel="stylesheet" href="style.css">
+<title>Decision brief | Gold Coast serious crash hotspots</title>
+<meta name="author" content="Milan Shaji">
+<link rel="stylesheet" href="style.css?v=20261006">
 <style>.brief{max-width:900px;margin:auto;padding:42px 0}.brief h1{max-width:none;font-size:clamp(32px,4vw,52px)}.brief p{max-width:none}.brief table{min-width:620px}.brief .table-wrap{margin:28px 0}</style>
-</head><body><header><a class="brand" href="index.html">Transport evidence</a>
-<a href="index.html#shortlist">Return to shortlist</a></header>
-<main><article class="brief"><p class="context">Decision brief · Gold Coast · 2020–2024</p>
+</head><body><header><a class="brand" href="index.html">Gold Coast crash hotspots</a>
+<a href="index.html#shortlist">Back to the dashboard</a><a class="byline" href="https://milanshaji.com">By Milan Shaji</a></header>
+<main><article class="brief"><p class="context">Decision brief · Milan Shaji · Gold Coast crash data, 2020–2024</p>
 ''' + '\n'.join(parts) + '\n</article></main></body></html>\n'
 (root / 'site/decision-brief.html').write_text(page)

@@ -1,6 +1,6 @@
 # Power BI and BigQuery execution evidence
 
-The actual project integrations were executed and checked on 5 October 2026 against snapshot `8c293a52745057c4`. The assistant operated the account checks. The records below describe that execution, not continuous availability of the private accounts.
+Both integrations were run and checked on 5 October 2026 against data snapshot `8c293a52745057c4`. The records below describe that run; the private accounts are not kept online permanently.
 
 ## Power BI
 
@@ -18,4 +18,4 @@ The sandbox's observed expiry was 60 days. Preserved CSVs and SQL support reload
 
 ## Public evidence scope
 
-The public execution record omits account and job identifiers; its counts and query timings are retained. Original account screenshots and execution records remain in the local handoff. Dashboard screenshots and all analysis results can be reviewed without account access.
+The public execution record leaves out account and job IDs but keeps the counts and query timings. Account screenshots are kept private. The dashboard and all analysis results can be checked without account access.

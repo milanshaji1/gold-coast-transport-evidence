@@ -101,7 +101,7 @@
       "Cloud tables expire; preserve the local CSV and SQL reload pack"
     ]
   },
-  "live_ai": "deferred by user",
+  "live_ai": "not included in this release",
   "publication": "Public copy prepared 5 October 2026; account identifiers omitted; recorded execution results unchanged.",
   "personal_walkthrough": "not yet recorded",
   "local_verification": {

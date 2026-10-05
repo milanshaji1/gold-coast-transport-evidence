@@ -1,6 +1,6 @@
 # Analytical contract
 
-See `design.md`, `sources.md`, `evidence/freeze.json` and the code. Projection is GDA2020 geographic → GDA2020/MGA zone 56. Grid origin (0,0) is independent of outcomes. Cells are half-open for unique membership and included only for positive intersection area with the boundary. Capture uses whole cells, while clipped area is reported separately.
+See `sources.md`, `evidence/freeze.json` and the code. Projection is GDA2020 geographic → GDA2020/MGA zone 56. Grid origin (0,0) is independent of outcomes. Cells are half-open for unique membership and included only for positive intersection area with the boundary. Capture uses whole cells, while clipped area is reported separately.
 
 Distinct events at identical coordinates remain separate observations. Event IDs are unique within a snapshot, not across source revisions. The database has one crash fact per event, one month row per year/month and one location row per suburb; key joins are many-to-one. Coordinates may be null and remain in descriptive totals, excluded only from geocoded capture denominators. Quarantines retain source rows and reasons.
 
@@ -10,6 +10,10 @@ Gamma-Poisson empirical Bayes uses training mean and variance; positive overdisp
 
 The model settings and count rankings were frozen before 2024 performance was inspected. Rebuilds verify immutable source hashes, grid contract and result equality. A refreshed source needs a new release, not reuse of the old holdout. Current revisions prevent historical as-of performance claims.
 
-## Reproduction safeguards added after independent review
+## Road names, road managers and concentration
 
-The pipeline now compares curated contents exactly with a fresh derivation from manifested raw pages before analysis, and verifies a separate code/configuration/source-manifest integrity record. This record was added after the original holdout run; the original parameter freeze and results remain unchanged. Future acquisition compares two full sorted passes and resource version metadata, but the original download was single-pass. Neither process claims a publisher-provided transactional snapshot. See `review-resolution.md` for the historical limitations and tests.
+Added after the 2024 evaluation (`src/transport/roads.py`, output `exports/roads.json`). It reads the same verified snapshot and does not change the frozen ranking. Road names are the two streets most often recorded (`Crash_Street` or `Crash_Street_Intersecting`) for a square's 2021–2023 serious crashes. The road manager comes from the source's `Crash_Controlling_Authority` field: a square is "state" or "council" when at least two-thirds of its coded serious crashes are on that kind of road, otherwise "mixed". The council-only and state-only shortlists rank squares by serious crashes on that kind of road in 2021–2023 (ties by square ID) and are scored on 2024 serious crashes on the same kind of road. Concentration compares each shortlist's share of 2024 serious crashes with its share of the city's in-boundary area (1,375.5 km²).
+
+## Reproduction safeguards added after code review
+
+The pipeline now compares curated contents exactly with a fresh derivation from manifested raw pages before analysis, and verifies a separate code/configuration/source-manifest integrity record. This record was added after the original holdout run; the original parameter freeze and results remain unchanged. Future acquisition compares two full sorted passes and resource version metadata, but the original download was single-pass. Neither process claims a publisher-provided transactional snapshot. See `quality-checks.md` for the review fixes, tests and remaining limits.

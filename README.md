@@ -1,30 +1,46 @@
-# Gold Coast transport evidence
+# Gold Coast serious crash hotspots
 
-[Open the live dashboard](https://milanshaji.com/gold-coast-transport-evidence/) · [Read the decision brief](https://milanshaji.com/gold-coast-transport-evidence/decision-brief.html) · [Download the frozen inputs](https://github.com/milanshaji1/gold-coast-transport-evidence/releases/tag/v1.0.0)
+**[Open the dashboard](https://milanshaji.com/gold-coast-transport-evidence/)** · [Read the decision brief](https://milanshaji.com/gold-coast-transport-evidence/decision-brief.html) · [Download the data release](https://github.com/milanshaji1/gold-coast-transport-evidence/releases/tag/v1.0.0)
 
-![Dashboard](evidence/platforms/dashboard-desktop.jpg)
+![Dashboard showing the top 20 crash squares on a Gold Coast street map](evidence/platforms/dashboard-desktop.jpg)
 
-An independent road-safety investigation shortlist built from Queensland Government open data. The practical question is **where further investigation should begin**, rather than which engineering treatment should be installed.
+## The question
 
-**Decision:** retain the transparent count baseline. At the primary 20-cell budget, the count shortlist captured **55/695 serious crashes (7.91%) in held-out 2024**, compared with **54/695 (7.77%)** for density-filtered counts. The small difference does not establish statistical superiority. Most serious crashes occurred outside either shortlist.
+If the City of Gold Coast could only investigate a handful of places for road safety, where should it start?
 
-[Decision brief](docs/decision-brief.md) · [Methods](docs/methods.md) · [Results](evidence/results.json) · [Sources](docs/sources.md) · [AI evidence](docs/ai-evidence.md) · [Platform status](docs/platforms.md) · [Review fixes and historical limits](docs/review-resolution.md)
+## What I did
 
-## What is implemented
+- Took every police-reported casualty crash on the Gold Coast from 2020 to 2024: **8,142 crashes**, from Queensland Government open data.
+- Split the city into 500 m squares and ranked them by **serious crashes** (someone killed or hospitalised) in 2021–2023.
+- Kept 2024 aside and checked how many of that year's serious crashes happened inside the top-ranked squares.
+- Tested whether DBSCAN clustering builds a better shortlist than simple counts. Its settings were chosen using 2023, so 2024 stayed unseen.
+- Added each square's main roads and who manages them (council or state), using fields in the same crash records.
 
-- Frozen official source bytes, manifest-only ingestion, exact curated-data verification, typed Parquet and a DuckDB relational warehouse.
-- GDA2020 → MGA zone 56 projection, fixed 500 m grid, deterministic count and DBSCAN comparisons, validation before temporal holdout.
-- Gamma-Poisson uncertainty experiment with an explicit rejection decision for site-specific interpretation.
-- Local dashboard with a count shortlist, labelled training-period cluster points, accessible tables and shared exports. Desktop/mobile and focused keyboard/download checks are recorded in [browser QA](docs/browser-qa.md).
-- Four read-only tools, a real MCP client/server exchange and a small lexical retrieval baseline. The recorded tool-contract evaluation passed **29/30**, with one retrieval failure and a documented scorer correction.
+## What I found
 
-**Verified platform work:** a saved Power BI descriptive report with real monthly data, typed metrics and tested year/severity filters; three BigQuery sandbox batch tables, exact monthly reconciliation and an actual spatial join reproducing the 55/695 shortlist result. [Execution record and account links](docs/platforms.md).
+- **A small area holds a lot of the harm.** The top 20 squares cover 0.35% of the city but held **55 of 695** serious crashes in 2024 (7.9%), about 23 times their share by area.
+- **Clustering didn't help.** DBSCAN caught 54 of 695. The difference is too small to matter, so the simpler count method stays.
+- **Most hotspots are on state roads.** 14 of the top 20 squares are mostly on state-controlled roads, nine of them on the Pacific Motorway (M1). TMR manages those, not the City. A separate council-roads shortlist caught **40 of 384** serious crashes on council roads in 2024, against 24 for the combined list. (This split was added after the 2024 check, so it doesn't change the original result.)
+- **Limits.** Most serious crashes still happen outside any shortlist, and without traffic volumes the counts can't say which road is riskiest per trip.
 
-**Scope:** Live LLM workflow/evaluation remains explicitly deferred, and Milan’s personal contribution walkthrough remains unrecorded. The native select arrow-key automation path is unverified; the accessible keyboard table path works. The public dashboard uses frozen data and requires no login. See [publication notes](docs/publication.md) for the public-copy boundary.
+## Tools
 
-## Reproduce
+Python (pandas, GeoPandas, scikit-learn, SciPy), DuckDB and SQL, BigQuery for an independent spatial check, Power BI, and a static dashboard (JavaScript and Leaflet, hosted on GitHub Pages). A small read-only [MCP server](docs/mcp-tools.md) also lets AI tools query the results.
 
-Python 3.12+ and Node.js 24+ are used. Commands run from this directory:
+## How it works
+
+1. **Download and freeze the data** (`acquire.py`). Every source file is saved with a SHA-256 hash so the analysis always uses the same bytes.
+2. **Validate** (`ingest.py`). Rows with bad years, severities, casualty totals or coordinates are set aside with a reason, never silently fixed. All 45,266 rows passed. The clean data also goes into a small DuckDB star schema (`sql/schema.sql`).
+3. **Build the grid** (`spatial.py`). Coordinates are converted to metres (GDA2020 / MGA zone 56) and each crash is placed in a fixed 500 m square.
+4. **Rank and compare** (`analysis.py`, `pipeline.py`). DBSCAN settings are chosen on 2020–2022 → 2023, frozen, then both methods are refitted on 2021–2023 and scored on 2024.
+5. **Check uncertainty** (`evaluate.py`). A Gamma-Poisson model was tried and rejected: 85% of squares have no serious crashes, so its intervals say little about any single site.
+6. **Add road context** (`roads.py`) and **export the dashboard data** (`exports.py`).
+
+More detail: [methods](docs/methods.md) · [data sources](docs/sources.md) · [Power BI and BigQuery](docs/platforms.md) · [quality checks](docs/quality-checks.md) · [full results](evidence/results.json)
+
+## Run it yourself
+
+You need Python 3.12+ and Node.js 24+.
 
 ```sh
 python3 -m venv .venv
@@ -33,38 +49,36 @@ python3 -m venv .venv
 node --test site/metrics.test.js
 ```
 
-The full input snapshot is kept outside Git. The versioned release archive contains the exact input bytes under CC BY 4.0, along with provenance and attributions. Download `transport-inputs-8c293a52745057c4.tar.gz` from the release above, verify its SHA-256 against `evidence/release.json`, and extract it into this repository before the frozen rebuild:
+To rebuild every result from the original data, download `transport-inputs-8c293a52745057c4.tar.gz` from the [release](https://github.com/milanshaji1/gold-coast-transport-evidence/releases/tag/v1.0.0), check its SHA-256 against `evidence/release.json`, then:
 
 ```sh
-tar -xzf transport-inputs-8c293a52745057c4.tar.gz
-PYTHONPATH=src .venv/bin/python -m transport.acquire "$(cat evidence/snapshot-path.txt)"
-PYTHONPATH=src .venv/bin/python -m transport.pipeline freeze
-PYTHONPATH=src .venv/bin/python -m transport.pipeline evaluate
-PYTHONPATH=src .venv/bin/python -m transport.map_layers
-PYTHONPATH=src .venv/bin/python -m transport.exports
+tar -xzf transport-inputs-8c293a52745057c4.tar.gz data/raw
+export PYTHONPATH=src
+.venv/bin/python -m transport.acquire "$(cat evidence/snapshot-path.txt)"
+.venv/bin/python -m transport.pipeline freeze
+.venv/bin/python -m transport.pipeline evaluate
+.venv/bin/python -m transport.map_layers
+.venv/bin/python -m transport.roads
+.venv/bin/python -m transport.exports
 .venv/bin/python -m http.server 8765 --bind 127.0.0.1 --directory site
 ```
 
-Open `http://127.0.0.1:8765`. There are no cloud credentials or live model endpoints in the dashboard. It is an independent web demo, not an embedded Power BI report.
+Then open http://127.0.0.1:8765. The rebuild reproduces the published files exactly. Running `transport.acquire` with no argument downloads fresh data into a new snapshot; the frozen checks will reject it rather than quietly replace the 2024 result.
 
-A fresh upstream acquisition is `PYTHONPATH=src .venv/bin/python -m transport.acquire` without an argument. It creates a new timestamped snapshot. It must be treated as a new release: existing freeze/result checks intentionally reject changed inputs rather than silently replacing the evaluation.
+## Repository layout
 
-The post-review integrity guard protects the current implementation and source derivation. It is an explicitly dated amendment added after the original holdout, not retroactive proof of an earlier code freeze. The original download was single-pass; future acquisition uses two matching passes with stable version metadata. See the review-resolution record for these limits.
+| Folder | Contents |
+|---|---|
+| `src/transport/` | The pipeline, analysis, road context and MCP server |
+| `tests/` | Python tests with small hand-checked fixtures |
+| `sql/` | DuckDB schema and the BigQuery reconciliation query |
+| `site/` | The dashboard (static HTML, CSS and JavaScript) and its data |
+| `exports/` | Analysis outputs and the BigQuery/Power BI reload pack |
+| `evidence/` | Frozen settings, results, data quality and rebuild records |
+| `docs/` | Methods, sources, decision brief and quality checks |
 
-Real MCP demonstration:
+## Data and licence
 
-```sh
-PYTHONPATH=src .venv/bin/python -m transport.client
-```
+Crash and boundary data © State of Queensland, used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Source links and hashes are in `evidence/source-manifest.json`. This is an independent project, not commissioned or endorsed by the City of Gold Coast or TMR.
 
-The development tests use compact, hand-checked fixtures. The full-data reconciliation test runs only when the frozen Parquet is present. CI does not download changing external datasets. Final evaluation transcripts are retained; rerunning a known test set is a regression check, not a new held-out reliability estimate.
-
-## Interpretation limits
-
-Serious crashes are Fatal/Hospitalisation **events**. Serious casualties are fatal plus hospitalised **people**. Counts do not measure risk per trip, causal effects or prevented crashes. No traffic exposure or engineering assessment is available. Current boundary, police reporting, source revisions and pandemic-related travel changes affect interpretation.
-
-The source has 8,142 casualty crashes in 2020–2024; the complete exact-LGA historical snapshot has 45,266 rows. These denominators are intentionally different. Two serious crashes lie outside the current boundary but remain in source-LGA totals.
-
-## Provenance and contribution
-
-Data © State of Queensland, Creative Commons Attribution 4.0; source links and exact hashes are in the manifest. This project is independent and is not endorsed by the City or TMR. See [contribution record](docs/contributions.md) for AI assistance and the walkthrough still needed before making personal implementation claims.
+Built by [Milan Shaji](https://milanshaji.com), with AI coding assistance.

@@ -12,4 +12,4 @@ This is a current revised source snapshot temporal holdout, not an historical as
 Rebuild frozen data: `PYTHONPATH=src .venv/bin/python -m transport.acquire $(cat evidence/snapshot-path.txt)`.
 Refresh upstream into a NEW timestamped raw folder: `PYTHONPATH=src .venv/bin/python -m transport.acquire`. Refresh invalidates analytical freeze and requires a new evaluation release; never silently replace published results.
 
-Local release packaging will include exact permitted raw inputs, source manifest and these attributions. Do not commit the large raw dataset to Git. Failed incomplete acquisitions have no manifest and are not analysis inputs.
+The [v1.0.0 release](https://github.com/milanshaji1/gold-coast-transport-evidence/releases/tag/v1.0.0) contains the exact raw inputs, the source manifest and these attributions. The raw dataset is kept out of Git. Failed incomplete acquisitions have no manifest and are not analysis inputs.

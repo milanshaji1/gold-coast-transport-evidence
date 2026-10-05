@@ -1,0 +1,3941 @@
+{
+  "by_manager": [
+    {
+      "budgets": [
+        {
+          "captured_by_combined_shortlist": 13,
+          "captured_by_own_shortlist": 22,
+          "k": 10
+        },
+        {
+          "captured_by_combined_shortlist": 24,
+          "captured_by_own_shortlist": 40,
+          "k": 20
+        },
+        {
+          "captured_by_combined_shortlist": 32,
+          "captured_by_own_shortlist": 57,
+          "k": 40
+        }
+      ],
+      "holdout_serious": 384,
+      "manager": "council",
+      "own_shortlist": [
+        {
+          "cell_id": "1084_13805",
+          "holdout_serious": 3,
+          "rank": 1,
+          "training_serious": 13
+        },
+        {
+          "cell_id": "1081_13811",
+          "holdout_serious": 2,
+          "rank": 2,
+          "training_serious": 10
+        },
+        {
+          "cell_id": "1083_13805",
+          "holdout_serious": 0,
+          "rank": 3,
+          "training_serious": 10
+        },
+        {
+          "cell_id": "1084_13804",
+          "holdout_serious": 2,
+          "rank": 4,
+          "training_serious": 10
+        },
+        {
+          "cell_id": "1084_13806",
+          "holdout_serious": 6,
+          "rank": 5,
+          "training_serious": 9
+        },
+        {
+          "cell_id": "1081_13813",
+          "holdout_serious": 3,
+          "rank": 6,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1084_13801",
+          "holdout_serious": 1,
+          "rank": 7,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1084_13803",
+          "holdout_serious": 1,
+          "rank": 8,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1077_13808",
+          "holdout_serious": 3,
+          "rank": 9,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1086_13788",
+          "holdout_serious": 1,
+          "rank": 10,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1063_13821",
+          "holdout_serious": 3,
+          "rank": 11,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1077_13790",
+          "holdout_serious": 5,
+          "rank": 12,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1079_13815",
+          "holdout_serious": 0,
+          "rank": 13,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1080_13817",
+          "holdout_serious": 0,
+          "rank": 14,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1081_13812",
+          "holdout_serious": 2,
+          "rank": 15,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1083_13804",
+          "holdout_serious": 2,
+          "rank": 16,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1084_13798",
+          "holdout_serious": 2,
+          "rank": 17,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1092_13776",
+          "holdout_serious": 1,
+          "rank": 18,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1057_13849",
+          "holdout_serious": 3,
+          "rank": 19,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1060_13844",
+          "holdout_serious": 0,
+          "rank": 20,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1072_13800",
+          "holdout_serious": 0,
+          "rank": 21,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1077_13815",
+          "holdout_serious": 1,
+          "rank": 22,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1079_13817",
+          "holdout_serious": 1,
+          "rank": 23,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1080_13814",
+          "holdout_serious": 3,
+          "rank": 24,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1083_13809",
+          "holdout_serious": 2,
+          "rank": 25,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1084_13799",
+          "holdout_serious": 2,
+          "rank": 26,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1084_13802",
+          "holdout_serious": 2,
+          "rank": 27,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1085_13798",
+          "holdout_serious": 1,
+          "rank": 28,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1087_13788",
+          "holdout_serious": 1,
+          "rank": 29,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1092_13777",
+          "holdout_serious": 1,
+          "rank": 30,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1102_13768",
+          "holdout_serious": 0,
+          "rank": 31,
+          "training_serious": 5
+        },
+        {
+          "cell_id": "1037_13855",
+          "holdout_serious": 0,
+          "rank": 32,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1051_13853",
+          "holdout_serious": 0,
+          "rank": 33,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1057_13845",
+          "holdout_serious": 0,
+          "rank": 34,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1058_13834",
+          "holdout_serious": 0,
+          "rank": 35,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1060_13834",
+          "holdout_serious": 0,
+          "rank": 36,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1061_13834",
+          "holdout_serious": 2,
+          "rank": 37,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1062_13843",
+          "holdout_serious": 1,
+          "rank": 38,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1063_13817",
+          "holdout_serious": 0,
+          "rank": 39,
+          "training_serious": 4
+        },
+        {
+          "cell_id": "1064_13840",
+          "holdout_serious": 0,
+          "rank": 40,
+          "training_serious": 4
+        }
+      ]
+    },
+    {
+      "budgets": [
+        {
+          "captured_by_combined_shortlist": 17,
+          "captured_by_own_shortlist": 22,
+          "k": 10
+        },
+        {
+          "captured_by_combined_shortlist": 31,
+          "captured_by_own_shortlist": 36,
+          "k": 20
+        },
+        {
+          "captured_by_combined_shortlist": 50,
+          "captured_by_own_shortlist": 69,
+          "k": 40
+        }
+      ],
+      "holdout_serious": 311,
+      "manager": "state",
+      "own_shortlist": [
+        {
+          "cell_id": "1062_13830",
+          "holdout_serious": 5,
+          "rank": 1,
+          "training_serious": 16
+        },
+        {
+          "cell_id": "1062_13826",
+          "holdout_serious": 2,
+          "rank": 2,
+          "training_serious": 11
+        },
+        {
+          "cell_id": "1067_13816",
+          "holdout_serious": 4,
+          "rank": 3,
+          "training_serious": 11
+        },
+        {
+          "cell_id": "1061_13832",
+          "holdout_serious": 1,
+          "rank": 4,
+          "training_serious": 10
+        },
+        {
+          "cell_id": "1067_13815",
+          "holdout_serious": 1,
+          "rank": 5,
+          "training_serious": 10
+        },
+        {
+          "cell_id": "1074_13810",
+          "holdout_serious": 1,
+          "rank": 6,
+          "training_serious": 10
+        },
+        {
+          "cell_id": "1060_13836",
+          "holdout_serious": 1,
+          "rank": 7,
+          "training_serious": 9
+        },
+        {
+          "cell_id": "1061_13835",
+          "holdout_serious": 1,
+          "rank": 8,
+          "training_serious": 9
+        },
+        {
+          "cell_id": "1066_13807",
+          "holdout_serious": 5,
+          "rank": 9,
+          "training_serious": 9
+        },
+        {
+          "cell_id": "1073_13820",
+          "holdout_serious": 1,
+          "rank": 10,
+          "training_serious": 9
+        },
+        {
+          "cell_id": "1083_13797",
+          "holdout_serious": 2,
+          "rank": 11,
+          "training_serious": 9
+        },
+        {
+          "cell_id": "1062_13831",
+          "holdout_serious": 2,
+          "rank": 12,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1067_13810",
+          "holdout_serious": 2,
+          "rank": 13,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1072_13803",
+          "holdout_serious": 3,
+          "rank": 14,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1074_13813",
+          "holdout_serious": 0,
+          "rank": 15,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1083_13783",
+          "holdout_serious": 4,
+          "rank": 16,
+          "training_serious": 8
+        },
+        {
+          "cell_id": "1050_13852",
+          "holdout_serious": 1,
+          "rank": 17,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1066_13806",
+          "holdout_serious": 0,
+          "rank": 18,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1072_13809",
+          "holdout_serious": 0,
+          "rank": 19,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1079_13782",
+          "holdout_serious": 0,
+          "rank": 20,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1079_13811",
+          "holdout_serious": 2,
+          "rank": 21,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1080_13802",
+          "holdout_serious": 1,
+          "rank": 22,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1081_13805",
+          "holdout_serious": 2,
+          "rank": 23,
+          "training_serious": 7
+        },
+        {
+          "cell_id": "1045_13864",
+          "holdout_serious": 4,
+          "rank": 24,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1048_13858",
+          "holdout_serious": 1,
+          "rank": 25,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1056_13845",
+          "holdout_serious": 1,
+          "rank": 26,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1060_13837",
+          "holdout_serious": 4,
+          "rank": 27,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1061_13836",
+          "holdout_serious": 1,
+          "rank": 28,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1066_13822",
+          "holdout_serious": 0,
+          "rank": 29,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1067_13809",
+          "holdout_serious": 1,
+          "rank": 30,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1067_13814",
+          "holdout_serious": 2,
+          "rank": 31,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1075_13813",
+          "holdout_serious": 2,
+          "rank": 32,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1075_13820",
+          "holdout_serious": 1,
+          "rank": 33,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1076_13810",
+          "holdout_serious": 0,
+          "rank": 34,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1076_13820",
+          "holdout_serious": 1,
+          "rank": 35,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1077_13813",
+          "holdout_serious": 3,
+          "rank": 36,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1078_13811",
+          "holdout_serious": 3,
+          "rank": 37,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1080_13797",
+          "holdout_serious": 1,
+          "rank": 38,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1080_13813",
+          "holdout_serious": 3,
+          "rank": 39,
+          "training_serious": 6
+        },
+        {
+          "cell_id": "1083_13782",
+          "holdout_serious": 0,
+          "rank": 40,
+          "training_serious": 6
+        }
+      ]
+    }
+  ],
+  "cells": {
+    "1037_13855": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.1624387903869694,
+      "events": 4,
+      "manager": "council",
+      "outline": [
+        [
+          153.192846,
+          -27.776866
+        ],
+        [
+          153.192838,
+          -27.772352
+        ],
+        [
+          153.187763,
+          -27.772359
+        ],
+        [
+          153.187771,
+          -27.776873
+        ],
+        [
+          153.192846,
+          -27.776866
+        ]
+      ],
+      "roads": [
+        "Stanmore Rd"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Luscombe",
+        "Yatala"
+      ]
+    },
+    "1045_13863": {
+      "authority_counts": {
+        "council": 3,
+        "not_coded": 0,
+        "state": 4
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "mixed",
+      "outline": [
+        [
+          153.233367,
+          -27.740693
+        ],
+        [
+          153.233358,
+          -27.73618
+        ],
+        [
+          153.228285,
+          -27.736188
+        ],
+        [
+          153.228294,
+          -27.740702
+        ],
+        [
+          153.233367,
+          -27.740693
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Christensen Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Yatala",
+        "Stapylton"
+      ]
+    },
+    "1045_13864": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.233358,
+          -27.73618
+        ],
+        [
+          153.233348,
+          -27.731666
+        ],
+        [
+          153.228275,
+          -27.731674
+        ],
+        [
+          153.228285,
+          -27.736188
+        ],
+        [
+          153.233358,
+          -27.73618
+        ]
+      ],
+      "roads": [
+        "Stapylton - Jacobs Well Rd",
+        "Pacific Hwy"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Stapylton"
+      ]
+    },
+    "1047_13859": {
+      "authority_counts": {
+        "council": 3,
+        "not_coded": 0,
+        "state": 5
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "mixed",
+      "outline": [
+        [
+          153.243554,
+          -27.758731
+        ],
+        [
+          153.243544,
+          -27.754217
+        ],
+        [
+          153.23847,
+          -27.754226
+        ],
+        [
+          153.23848,
+          -27.75874
+        ],
+        [
+          153.243554,
+          -27.758731
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Burnside Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Ormeau",
+        "Stapylton"
+      ]
+    },
+    "1048_13858": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "state",
+      "outline": [
+        [
+          153.248638,
+          -27.763236
+        ],
+        [
+          153.248628,
+          -27.758722
+        ],
+        [
+          153.243554,
+          -27.758731
+        ],
+        [
+          153.243564,
+          -27.763245
+        ],
+        [
+          153.248638,
+          -27.763236
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Cuthbert Dr"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Ormeau"
+      ]
+    },
+    "1050_13852": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 7
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.258851,
+          -27.7903
+        ],
+        [
+          153.25884,
+          -27.785786
+        ],
+        [
+          153.253765,
+          -27.785795
+        ],
+        [
+          153.253775,
+          -27.790309
+        ],
+        [
+          153.258851,
+          -27.7903
+        ]
+      ],
+      "roads": [
+        "Creek St",
+        "Eggersdorf Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Ormeau"
+      ]
+    },
+    "1051_13853": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 4,
+      "manager": "council",
+      "outline": [
+        [
+          153.263915,
+          -27.785776
+        ],
+        [
+          153.263904,
+          -27.781263
+        ],
+        [
+          153.258829,
+          -27.781272
+        ],
+        [
+          153.25884,
+          -27.785786
+        ],
+        [
+          153.263915,
+          -27.785776
+        ]
+      ],
+      "roads": [
+        "Coles Dr",
+        "Eggersdorf Rd"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Ormeau"
+      ]
+    },
+    "1056_13845": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.289387,
+          -27.821835
+        ],
+        [
+          153.289375,
+          -27.817322
+        ],
+        [
+          153.284298,
+          -27.817332
+        ],
+        [
+          153.28431,
+          -27.821846
+        ],
+        [
+          153.289387,
+          -27.821835
+        ]
+      ],
+      "roads": [
+        "Attenborough Blvd",
+        "Pacific Hwy"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Pimpama"
+      ]
+    },
+    "1057_13845": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 3
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "mixed",
+      "outline": [
+        [
+          153.294464,
+          -27.821825
+        ],
+        [
+          153.294452,
+          -27.817311
+        ],
+        [
+          153.289375,
+          -27.817322
+        ],
+        [
+          153.289387,
+          -27.821835
+        ],
+        [
+          153.294464,
+          -27.821825
+        ]
+      ],
+      "roads": [
+        "Yawalpah Rd",
+        "Salzburg Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Pimpama"
+      ]
+    },
+    "1057_13849": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.294415,
+          -27.80377
+        ],
+        [
+          153.294403,
+          -27.799256
+        ],
+        [
+          153.289327,
+          -27.799267
+        ],
+        [
+          153.289339,
+          -27.80378
+        ],
+        [
+          153.294415,
+          -27.80377
+        ]
+      ],
+      "roads": [
+        "Pimpama - Jacobs Well Rd",
+        "Old Wharf Rd"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Pimpama"
+      ]
+    },
+    "1058_13834": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 4,
+      "manager": "council",
+      "outline": [
+        [
+          153.299677,
+          -27.871464
+        ],
+        [
+          153.299665,
+          -27.866951
+        ],
+        [
+          153.294586,
+          -27.866961
+        ],
+        [
+          153.294598,
+          -27.871475
+        ],
+        [
+          153.299677,
+          -27.871464
+        ]
+      ],
+      "roads": [
+        "Brygon Creek Dr",
+        "Jessica Dr"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Upper Coomera"
+      ]
+    },
+    "1060_13834": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 4,
+      "manager": "council",
+      "outline": [
+        [
+          153.309836,
+          -27.871442
+        ],
+        [
+          153.309823,
+          -27.866928
+        ],
+        [
+          153.304744,
+          -27.866939
+        ],
+        [
+          153.304757,
+          -27.871453
+        ],
+        [
+          153.309836,
+          -27.871442
+        ]
+      ],
+      "roads": [
+        "Reserve Rd",
+        "Abraham Rd"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Upper Coomera"
+      ]
+    },
+    "1060_13836": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 9
+      },
+      "clipped_area_km2": 0.25,
+      "events": 9,
+      "manager": "state",
+      "outline": [
+        [
+          153.30981,
+          -27.862414
+        ],
+        [
+          153.309797,
+          -27.857901
+        ],
+        [
+          153.304719,
+          -27.857912
+        ],
+        [
+          153.304731,
+          -27.862426
+        ],
+        [
+          153.30981,
+          -27.862414
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Service Centre Access"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Upper Coomera",
+        "Coomera"
+      ]
+    },
+    "1060_13837": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 1,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.309797,
+          -27.857901
+        ],
+        [
+          153.309784,
+          -27.853387
+        ],
+        [
+          153.304706,
+          -27.853398
+        ],
+        [
+          153.304719,
+          -27.857912
+        ],
+        [
+          153.309797,
+          -27.857901
+        ]
+      ],
+      "roads": [
+        "Days Rd",
+        "Abraham Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Coomera",
+        "Upper Coomera"
+      ]
+    },
+    "1060_13844": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.309708,
+          -27.826305
+        ],
+        [
+          153.309695,
+          -27.821791
+        ],
+        [
+          153.304618,
+          -27.821803
+        ],
+        [
+          153.30463,
+          -27.826316
+        ],
+        [
+          153.309708,
+          -27.826305
+        ]
+      ],
+      "roads": [
+        "Swan Rd",
+        "Gawthern Dr"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Pimpama"
+      ]
+    },
+    "1061_13832": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 10
+      },
+      "clipped_area_km2": 0.25,
+      "events": 11,
+      "manager": "state",
+      "outline": [
+        [
+          153.314941,
+          -27.880458
+        ],
+        [
+          153.314928,
+          -27.875944
+        ],
+        [
+          153.309849,
+          -27.875955
+        ],
+        [
+          153.309861,
+          -27.880469
+        ],
+        [
+          153.314941,
+          -27.880458
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Oxenford",
+        "Upper Coomera"
+      ]
+    },
+    "1061_13834": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 3
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "mixed",
+      "outline": [
+        [
+          153.314915,
+          -27.87143
+        ],
+        [
+          153.314902,
+          -27.866917
+        ],
+        [
+          153.309823,
+          -27.866928
+        ],
+        [
+          153.309836,
+          -27.871442
+        ],
+        [
+          153.314915,
+          -27.87143
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Heathwood Dr"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Coomera",
+        "Upper Coomera"
+      ]
+    },
+    "1061_13835": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 9
+      },
+      "clipped_area_km2": 0.25,
+      "events": 10,
+      "manager": "state",
+      "outline": [
+        [
+          153.314902,
+          -27.866917
+        ],
+        [
+          153.314889,
+          -27.862403
+        ],
+        [
+          153.30981,
+          -27.862414
+        ],
+        [
+          153.309823,
+          -27.866928
+        ],
+        [
+          153.314902,
+          -27.866917
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Beattie Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Coomera",
+        "Upper Coomera"
+      ]
+    },
+    "1061_13836": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.314889,
+          -27.862403
+        ],
+        [
+          153.314876,
+          -27.857889
+        ],
+        [
+          153.309797,
+          -27.857901
+        ],
+        [
+          153.30981,
+          -27.862414
+        ],
+        [
+          153.314889,
+          -27.862403
+        ]
+      ],
+      "roads": [
+        "Dreamworld Parkway",
+        "Pacific Hwy"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Coomera",
+        "Upper Coomera"
+      ]
+    },
+    "1062_13826": {
+      "authority_counts": {
+        "council": 3,
+        "not_coded": 1,
+        "state": 11
+      },
+      "clipped_area_km2": 0.25,
+      "events": 15,
+      "manager": "state",
+      "outline": [
+        [
+          153.3201,
+          -27.907528
+        ],
+        [
+          153.320087,
+          -27.903014
+        ],
+        [
+          153.315006,
+          -27.903026
+        ],
+        [
+          153.31502,
+          -27.907539
+        ],
+        [
+          153.3201,
+          -27.907528
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Helensvale Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Helensvale",
+        "Oxenford"
+      ]
+    },
+    "1062_13830": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 16
+      },
+      "clipped_area_km2": 0.25,
+      "events": 17,
+      "manager": "state",
+      "outline": [
+        [
+          153.320047,
+          -27.889473
+        ],
+        [
+          153.320034,
+          -27.88496
+        ],
+        [
+          153.314954,
+          -27.884971
+        ],
+        [
+          153.314967,
+          -27.889485
+        ],
+        [
+          153.320047,
+          -27.889473
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Hope Island Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Helensvale",
+        "Oxenford"
+      ]
+    },
+    "1062_13831": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 8
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.320034,
+          -27.88496
+        ],
+        [
+          153.320021,
+          -27.880446
+        ],
+        [
+          153.314941,
+          -27.880458
+        ],
+        [
+          153.314954,
+          -27.884971
+        ],
+        [
+          153.320034,
+          -27.88496
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Dreamworld Parkway"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Helensvale",
+        "Oxenford"
+      ]
+    },
+    "1062_13843": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 4,
+      "manager": "council",
+      "outline": [
+        [
+          153.319875,
+          -27.830795
+        ],
+        [
+          153.319862,
+          -27.826282
+        ],
+        [
+          153.314785,
+          -27.826293
+        ],
+        [
+          153.314798,
+          -27.830807
+        ],
+        [
+          153.319875,
+          -27.830795
+        ]
+      ],
+      "roads": [
+        "William Bvd",
+        "Dixon Dr"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Pimpama"
+      ]
+    },
+    "1063_13817": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 4,
+      "manager": "council",
+      "outline": [
+        [
+          153.325303,
+          -27.948138
+        ],
+        [
+          153.325289,
+          -27.943625
+        ],
+        [
+          153.320207,
+          -27.943637
+        ],
+        [
+          153.32022,
+          -27.94815
+        ],
+        [
+          153.325303,
+          -27.948138
+        ]
+      ],
+      "roads": [
+        "Pitcairn Wy",
+        "Archipelago St"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Pacific Pines"
+      ]
+    },
+    "1063_13821": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "council",
+      "outline": [
+        [
+          153.325249,
+          -27.930084
+        ],
+        [
+          153.325235,
+          -27.92557
+        ],
+        [
+          153.320154,
+          -27.925582
+        ],
+        [
+          153.320167,
+          -27.930096
+        ],
+        [
+          153.325249,
+          -27.930084
+        ]
+      ],
+      "roads": [
+        "Binstead Wy",
+        "Universal Dr"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Pacific Pines"
+      ]
+    },
+    "1064_13840": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 4,
+      "manager": "council",
+      "outline": [
+        [
+          153.330071,
+          -27.844313
+        ],
+        [
+          153.330057,
+          -27.839799
+        ],
+        [
+          153.324979,
+          -27.839811
+        ],
+        [
+          153.324993,
+          -27.844325
+        ],
+        [
+          153.330071,
+          -27.844313
+        ]
+      ],
+      "roads": [
+        "Finnegan Way",
+        "Celestial Wy"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Coomera"
+      ]
+    },
+    "1066_13806": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 7
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.340707,
+          -27.997751
+        ],
+        [
+          153.340693,
+          -27.993237
+        ],
+        [
+          153.335608,
+          -27.99325
+        ],
+        [
+          153.335622,
+          -27.997764
+        ],
+        [
+          153.340707,
+          -27.997751
+        ]
+      ],
+      "roads": [
+        "Nerang - Broadbeach Rd",
+        "Nerang Connection Rd"
+      ],
+      "state_road": "Nerang Connection Road",
+      "suburbs": [
+        "Nerang"
+      ]
+    },
+    "1066_13807": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 9
+      },
+      "clipped_area_km2": 0.25,
+      "events": 9,
+      "manager": "state",
+      "outline": [
+        [
+          153.340693,
+          -27.993237
+        ],
+        [
+          153.340679,
+          -27.988724
+        ],
+        [
+          153.335594,
+          -27.988736
+        ],
+        [
+          153.335608,
+          -27.99325
+        ],
+        [
+          153.340693,
+          -27.993237
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Price St"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Nerang"
+      ]
+    },
+    "1066_13822": {
+      "authority_counts": {
+        "council": 2,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.340481,
+          -27.925534
+        ],
+        [
+          153.340466,
+          -27.92102
+        ],
+        [
+          153.335385,
+          -27.921032
+        ],
+        [
+          153.335399,
+          -27.925546
+        ],
+        [
+          153.340481,
+          -27.925534
+        ]
+      ],
+      "roads": [
+        "Gold Coast Hwy",
+        "Discovery Dr"
+      ],
+      "state_road": "Gold Coast Highway (Helensvale - Southport)",
+      "suburbs": [
+        "Helensvale"
+      ]
+    },
+    "1067_13809": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.345749,
+          -27.984198
+        ],
+        [
+          153.345735,
+          -27.979684
+        ],
+        [
+          153.34065,
+          -27.979697
+        ],
+        [
+          153.340665,
+          -27.98421
+        ],
+        [
+          153.345749,
+          -27.984198
+        ]
+      ],
+      "roads": [
+        "Southport - Nerang Rd",
+        "Pacific Hwy"
+      ],
+      "state_road": "Southport - Nerang Road",
+      "suburbs": [
+        "Ashmore",
+        "Molendinar"
+      ]
+    },
+    "1067_13810": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 8
+      },
+      "clipped_area_km2": 0.25,
+      "events": 9,
+      "manager": "state",
+      "outline": [
+        [
+          153.345735,
+          -27.979684
+        ],
+        [
+          153.34572,
+          -27.97517
+        ],
+        [
+          153.340636,
+          -27.975183
+        ],
+        [
+          153.34065,
+          -27.979697
+        ],
+        [
+          153.345735,
+          -27.979684
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Evers St"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Nerang",
+        "Gaven"
+      ]
+    },
+    "1067_13814": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.345677,
+          -27.96163
+        ],
+        [
+          153.345663,
+          -27.957116
+        ],
+        [
+          153.34058,
+          -27.957129
+        ],
+        [
+          153.340594,
+          -27.961642
+        ],
+        [
+          153.345677,
+          -27.96163
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Smith St Connection Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Gaven",
+        "Arundel"
+      ]
+    },
+    "1067_13815": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 10
+      },
+      "clipped_area_km2": 0.25,
+      "events": 10,
+      "manager": "state",
+      "outline": [
+        [
+          153.345663,
+          -27.957116
+        ],
+        [
+          153.345648,
+          -27.952603
+        ],
+        [
+          153.340565,
+          -27.952615
+        ],
+        [
+          153.34058,
+          -27.957129
+        ],
+        [
+          153.345663,
+          -27.957116
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Smith St Connection Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Gaven",
+        "Arundel"
+      ]
+    },
+    "1067_13816": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 11
+      },
+      "clipped_area_km2": 0.25,
+      "events": 11,
+      "manager": "state",
+      "outline": [
+        [
+          153.345648,
+          -27.952603
+        ],
+        [
+          153.345634,
+          -27.948089
+        ],
+        [
+          153.340551,
+          -27.948102
+        ],
+        [
+          153.340565,
+          -27.952615
+        ],
+        [
+          153.345648,
+          -27.952603
+        ]
+      ],
+      "roads": [
+        "Pacific Hwy",
+        "Heslop Rd"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Arundel",
+        "Gaven"
+      ]
+    },
+    "1072_13800": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.371311,
+          -28.024753
+        ],
+        [
+          153.371295,
+          -28.02024
+        ],
+        [
+          153.366209,
+          -28.020253
+        ],
+        [
+          153.366224,
+          -28.024767
+        ],
+        [
+          153.371311,
+          -28.024753
+        ]
+      ],
+      "roads": [
+        "Nielsens Rd",
+        "Birmingham Rd"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Carrara"
+      ]
+    },
+    "1072_13803": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 8
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.371264,
+          -28.011213
+        ],
+        [
+          153.371249,
+          -28.006699
+        ],
+        [
+          153.366163,
+          -28.006713
+        ],
+        [
+          153.366178,
+          -28.011226
+        ],
+        [
+          153.371264,
+          -28.011213
+        ]
+      ],
+      "roads": [
+        "Birmingham Rd",
+        "Nerang - Broadbeach Rd"
+      ],
+      "state_road": "Nerang - Broadbeach Road",
+      "suburbs": [
+        "Carrara"
+      ]
+    },
+    "1072_13809": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 7
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.371171,
+          -27.984131
+        ],
+        [
+          153.371156,
+          -27.979618
+        ],
+        [
+          153.366072,
+          -27.979631
+        ],
+        [
+          153.366087,
+          -27.984145
+        ],
+        [
+          153.371171,
+          -27.984131
+        ]
+      ],
+      "roads": [
+        "Southport - Nerang Rd",
+        "Cotlew St"
+      ],
+      "state_road": "Southport - Nerang Road",
+      "suburbs": [
+        "Molendinar",
+        "Ashmore"
+      ]
+    },
+    "1073_13820": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 9
+      },
+      "clipped_area_km2": 0.25,
+      "events": 10,
+      "manager": "state",
+      "outline": [
+        [
+          153.376084,
+          -27.934468
+        ],
+        [
+          153.376068,
+          -27.929955
+        ],
+        [
+          153.370986,
+          -27.929968
+        ],
+        [
+          153.371002,
+          -27.934482
+        ],
+        [
+          153.376084,
+          -27.934468
+        ]
+      ],
+      "roads": [
+        "Brisbane Rd",
+        "Pine Ridge Rd"
+      ],
+      "state_road": "Gold Coast Highway (Helensvale - Southport)",
+      "suburbs": [
+        "Coombabah",
+        "Arundel"
+      ]
+    },
+    "1074_13810": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 10
+      },
+      "clipped_area_km2": 0.25,
+      "events": 11,
+      "manager": "state",
+      "outline": [
+        [
+          153.381324,
+          -27.97959
+        ],
+        [
+          153.381309,
+          -27.975076
+        ],
+        [
+          153.376225,
+          -27.97509
+        ],
+        [
+          153.37624,
+          -27.979604
+        ],
+        [
+          153.381324,
+          -27.97959
+        ]
+      ],
+      "roads": [
+        "Southport - Nerang Rd",
+        "Currumburra Rd"
+      ],
+      "state_road": "Labrador - Carrara Road",
+      "suburbs": [
+        "Ashmore",
+        "Molendinar"
+      ]
+    },
+    "1074_13813": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 8
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.381277,
+          -27.966049
+        ],
+        [
+          153.381261,
+          -27.961536
+        ],
+        [
+          153.376178,
+          -27.96155
+        ],
+        [
+          153.376193,
+          -27.966063
+        ],
+        [
+          153.381277,
+          -27.966049
+        ]
+      ],
+      "roads": [
+        "Olsen Av",
+        "Smith St Connection Rd"
+      ],
+      "state_road": "Labrador - Carrara Road",
+      "suburbs": [
+        "Molendinar",
+        "Southport"
+      ]
+    },
+    "1075_13813": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.38636,
+          -27.966035
+        ],
+        [
+          153.386344,
+          -27.961522
+        ],
+        [
+          153.381261,
+          -27.961536
+        ],
+        [
+          153.381277,
+          -27.966049
+        ],
+        [
+          153.38636,
+          -27.966035
+        ]
+      ],
+      "roads": [
+        "Smith St",
+        "Parklands Dr"
+      ],
+      "state_road": "Smith Street Connection Road",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1075_13820": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "state",
+      "outline": [
+        [
+          153.386248,
+          -27.93444
+        ],
+        [
+          153.386232,
+          -27.929926
+        ],
+        [
+          153.38115,
+          -27.929941
+        ],
+        [
+          153.381166,
+          -27.934454
+        ],
+        [
+          153.386248,
+          -27.93444
+        ]
+      ],
+      "roads": [
+        "Brisbane Rd",
+        "Lewis Dr"
+      ],
+      "state_road": "Gold Coast Highway (Helensvale - Southport)",
+      "suburbs": [
+        "Biggera Waters",
+        "Arundel"
+      ]
+    },
+    "1076_13810": {
+      "authority_counts": {
+        "council": 2,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.391493,
+          -27.979561
+        ],
+        [
+          153.391477,
+          -27.975048
+        ],
+        [
+          153.386393,
+          -27.975062
+        ],
+        [
+          153.386409,
+          -27.979576
+        ],
+        [
+          153.391493,
+          -27.979561
+        ]
+      ],
+      "roads": [
+        "Southport - Nerang Rd",
+        "Bailey Cres"
+      ],
+      "state_road": "Southport - Nerang Road",
+      "suburbs": [
+        "Ashmore",
+        "Southport"
+      ]
+    },
+    "1076_13820": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "state",
+      "outline": [
+        [
+          153.39133,
+          -27.934426
+        ],
+        [
+          153.391314,
+          -27.929912
+        ],
+        [
+          153.386232,
+          -27.929926
+        ],
+        [
+          153.386248,
+          -27.93444
+        ],
+        [
+          153.39133,
+          -27.934426
+        ]
+      ],
+      "roads": [
+        "Oxley Dr",
+        "Harbour Side Ct"
+      ],
+      "state_road": "Hope Island Road",
+      "suburbs": [
+        "Biggera Waters",
+        "Arundel"
+      ]
+    },
+    "1077_13790": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "council",
+      "outline": [
+        [
+          153.396908,
+          -28.069817
+        ],
+        [
+          153.396892,
+          -28.065304
+        ],
+        [
+          153.391803,
+          -28.065318
+        ],
+        [
+          153.39182,
+          -28.069832
+        ],
+        [
+          153.396908,
+          -28.069817
+        ]
+      ],
+      "roads": [
+        "Cheltenham Dr",
+        "Robina Parkway"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Robina"
+      ]
+    },
+    "1077_13808": {
+      "authority_counts": {
+        "council": 7,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "council",
+      "outline": [
+        [
+          153.39661,
+          -27.988574
+        ],
+        [
+          153.396594,
+          -27.98406
+        ],
+        [
+          153.391509,
+          -27.984075
+        ],
+        [
+          153.391526,
+          -27.988589
+        ],
+        [
+          153.39661,
+          -27.988574
+        ]
+      ],
+      "roads": [
+        "Cotlew St",
+        "Wardoo St"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Southport",
+        "Ashmore"
+      ]
+    },
+    "1077_13813": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.396528,
+          -27.966006
+        ],
+        [
+          153.396511,
+          -27.961493
+        ],
+        [
+          153.391428,
+          -27.961507
+        ],
+        [
+          153.391444,
+          -27.966021
+        ],
+        [
+          153.396528,
+          -27.966006
+        ]
+      ],
+      "roads": [
+        "Smith St",
+        "Kumbari Ave"
+      ],
+      "state_road": "Smith Street Connection Road",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1077_13815": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.396495,
+          -27.956979
+        ],
+        [
+          153.396478,
+          -27.952466
+        ],
+        [
+          153.391395,
+          -27.95248
+        ],
+        [
+          153.391411,
+          -27.956994
+        ],
+        [
+          153.396495,
+          -27.956979
+        ]
+      ],
+      "roads": [
+        "Musgrave Ave",
+        "Kumbari Ave"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Southport",
+        "Labrador"
+      ]
+    },
+    "1078_13811": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.401645,
+          -27.975019
+        ],
+        [
+          153.401628,
+          -27.970505
+        ],
+        [
+          153.396544,
+          -27.97052
+        ],
+        [
+          153.396561,
+          -27.975033
+        ],
+        [
+          153.401645,
+          -27.975019
+        ]
+      ],
+      "roads": [
+        "Minnie St",
+        "Nerang St"
+      ],
+      "state_road": "Southport - Nerang Road",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1079_13782": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 7
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.407221,
+          -28.105895
+        ],
+        [
+          153.407204,
+          -28.101382
+        ],
+        [
+          153.402114,
+          -28.101397
+        ],
+        [
+          153.402131,
+          -28.10591
+        ],
+        [
+          153.407221,
+          -28.105895
+        ]
+      ],
+      "roads": [
+        "Burleigh Connection Rd",
+        "Pacific Hwy"
+      ],
+      "state_road": "Pacific Highway (Pacific Motorway)",
+      "suburbs": [
+        "Varsity Lakes",
+        "Reedy Creek"
+      ]
+    },
+    "1079_13811": {
+      "authority_counts": {
+        "council": 2,
+        "not_coded": 0,
+        "state": 7
+      },
+      "clipped_area_km2": 0.25,
+      "events": 9,
+      "manager": "state",
+      "outline": [
+        [
+          153.406729,
+          -27.975004
+        ],
+        [
+          153.406712,
+          -27.97049
+        ],
+        [
+          153.401628,
+          -27.970505
+        ],
+        [
+          153.401645,
+          -27.975019
+        ],
+        [
+          153.406729,
+          -27.975004
+        ]
+      ],
+      "roads": [
+        "Nerang St",
+        "Eugaree St"
+      ],
+      "state_road": "Southport - Nerang Road",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1079_13815": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "council",
+      "outline": [
+        [
+          153.406661,
+          -27.956949
+        ],
+        [
+          153.406644,
+          -27.952436
+        ],
+        [
+          153.401561,
+          -27.952451
+        ],
+        [
+          153.401578,
+          -27.956964
+        ],
+        [
+          153.406661,
+          -27.956949
+        ]
+      ],
+      "roads": [
+        "Musgrave Ave",
+        "Clayton St"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Labrador",
+        "Southport"
+      ]
+    },
+    "1079_13817": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.406627,
+          -27.947922
+        ],
+        [
+          153.40661,
+          -27.943409
+        ],
+        [
+          153.401528,
+          -27.943424
+        ],
+        [
+          153.401544,
+          -27.947937
+        ],
+        [
+          153.406627,
+          -27.947922
+        ]
+      ],
+      "roads": [
+        "Muir St",
+        "Turpin Rd"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Labrador"
+      ]
+    },
+    "1080_13797": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.412053,
+          -28.038178
+        ],
+        [
+          153.412036,
+          -28.033664
+        ],
+        [
+          153.406949,
+          -28.03368
+        ],
+        [
+          153.406966,
+          -28.038193
+        ],
+        [
+          153.412053,
+          -28.038178
+        ]
+      ],
+      "roads": [
+        "Southport - Burleigh Rd",
+        "Bermuda St"
+      ],
+      "state_road": "Southport - Burleigh Road",
+      "suburbs": [
+        "Broadbeach Waters",
+        "Clear Island Waters"
+      ]
+    },
+    "1080_13802": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 7
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.411967,
+          -28.01561
+        ],
+        [
+          153.41195,
+          -28.011097
+        ],
+        [
+          153.406864,
+          -28.011112
+        ],
+        [
+          153.406881,
+          -28.015625
+        ],
+        [
+          153.411967,
+          -28.01561
+        ]
+      ],
+      "roads": [
+        "Bundall Rd",
+        "Ashmore Rd"
+      ],
+      "state_road": "Southport - Burleigh Road",
+      "suburbs": [
+        "Bundall",
+        "Surfers Paradise"
+      ]
+    },
+    "1080_13813": {
+      "authority_counts": {
+        "council": 1,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "state",
+      "outline": [
+        [
+          153.411778,
+          -27.965961
+        ],
+        [
+          153.411761,
+          -27.961448
+        ],
+        [
+          153.406678,
+          -27.961463
+        ],
+        [
+          153.406695,
+          -27.965977
+        ],
+        [
+          153.411778,
+          -27.965961
+        ]
+      ],
+      "roads": [
+        "High St",
+        "North St"
+      ],
+      "state_road": "Smith Street Connection Road",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1080_13814": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 5
+      },
+      "clipped_area_km2": 0.25,
+      "events": 10,
+      "manager": "mixed",
+      "outline": [
+        [
+          153.411761,
+          -27.961448
+        ],
+        [
+          153.411744,
+          -27.956934
+        ],
+        [
+          153.406661,
+          -27.956949
+        ],
+        [
+          153.406678,
+          -27.961463
+        ],
+        [
+          153.411761,
+          -27.961448
+        ]
+      ],
+      "roads": [
+        "Marine Pde",
+        "Scarborough St"
+      ],
+      "state_road": "Gold Coast Highway (Helensvale - Southport)",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1080_13817": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 2
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "council",
+      "outline": [
+        [
+          153.41171,
+          -27.947907
+        ],
+        [
+          153.411693,
+          -27.943394
+        ],
+        [
+          153.40661,
+          -27.943409
+        ],
+        [
+          153.406627,
+          -27.947922
+        ],
+        [
+          153.41171,
+          -27.947907
+        ]
+      ],
+      "roads": [
+        "Marine Pde",
+        "Whiting St"
+      ],
+      "state_road": "Gold Coast Highway (Helensvale - Southport)",
+      "suburbs": [
+        "Labrador"
+      ]
+    },
+    "1081_13805": {
+      "authority_counts": {
+        "council": 2,
+        "not_coded": 0,
+        "state": 7
+      },
+      "clipped_area_km2": 0.25,
+      "events": 9,
+      "manager": "state",
+      "outline": [
+        [
+          153.417001,
+          -28.002054
+        ],
+        [
+          153.416983,
+          -27.997541
+        ],
+        [
+          153.411898,
+          -27.997556
+        ],
+        [
+          153.411916,
+          -28.00207
+        ],
+        [
+          153.417001,
+          -28.002054
+        ]
+      ],
+      "roads": [
+        "Bundall Rd",
+        "Ferry Rd"
+      ],
+      "state_road": "Southport - Burleigh Road",
+      "suburbs": [
+        "Bundall",
+        "Southport"
+      ]
+    },
+    "1081_13811": {
+      "authority_counts": {
+        "council": 10,
+        "not_coded": 0,
+        "state": 1
+      },
+      "clipped_area_km2": 0.25,
+      "events": 11,
+      "manager": "council",
+      "outline": [
+        [
+          153.416897,
+          -27.974973
+        ],
+        [
+          153.416879,
+          -27.97046
+        ],
+        [
+          153.411796,
+          -27.970475
+        ],
+        [
+          153.411813,
+          -27.974989
+        ],
+        [
+          153.416897,
+          -27.974973
+        ]
+      ],
+      "roads": [
+        "Garden St",
+        "Queen St"
+      ],
+      "state_road": "Gold Coast Light Rail (Parklands - Broadbeach)",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1081_13812": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "council",
+      "outline": [
+        [
+          153.416879,
+          -27.97046
+        ],
+        [
+          153.416862,
+          -27.965946
+        ],
+        [
+          153.411778,
+          -27.965961
+        ],
+        [
+          153.411796,
+          -27.970475
+        ],
+        [
+          153.416879,
+          -27.97046
+        ]
+      ],
+      "roads": [
+        "Marine Pde",
+        "Lawson St"
+      ],
+      "state_road": "Heart Of The City 1",
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1081_13813": {
+      "authority_counts": {
+        "council": 8,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "council",
+      "outline": [
+        [
+          153.416862,
+          -27.965946
+        ],
+        [
+          153.416845,
+          -27.961433
+        ],
+        [
+          153.411761,
+          -27.961448
+        ],
+        [
+          153.411778,
+          -27.965961
+        ],
+        [
+          153.416862,
+          -27.965946
+        ]
+      ],
+      "roads": [
+        "Nind St",
+        "Scarborough St"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Southport"
+      ]
+    },
+    "1083_13782": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 6
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "state",
+      "outline": [
+        [
+          153.427582,
+          -28.105833
+        ],
+        [
+          153.427564,
+          -28.10132
+        ],
+        [
+          153.422474,
+          -28.101336
+        ],
+        [
+          153.422492,
+          -28.105849
+        ],
+        [
+          153.427582,
+          -28.105833
+        ]
+      ],
+      "roads": [
+        "Bermuda St",
+        "Reedy Creek Rd"
+      ],
+      "state_road": "Southport - Burleigh Road",
+      "suburbs": [
+        "Burleigh Heads"
+      ]
+    },
+    "1083_13783": {
+      "authority_counts": {
+        "council": 0,
+        "not_coded": 0,
+        "state": 8
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "state",
+      "outline": [
+        [
+          153.427564,
+          -28.10132
+        ],
+        [
+          153.427546,
+          -28.096806
+        ],
+        [
+          153.422456,
+          -28.096822
+        ],
+        [
+          153.422474,
+          -28.101336
+        ],
+        [
+          153.427564,
+          -28.10132
+        ]
+      ],
+      "roads": [
+        "Reedy Creek Rd",
+        "Bermuda St"
+      ],
+      "state_road": "Burleigh Connection Road",
+      "suburbs": [
+        "Burleigh Waters",
+        "Burleigh Heads"
+      ]
+    },
+    "1083_13786": {
+      "authority_counts": {
+        "council": 4,
+        "not_coded": 0,
+        "state": 4
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "mixed",
+      "outline": [
+        [
+          153.42751,
+          -28.08778
+        ],
+        [
+          153.427492,
+          -28.083266
+        ],
+        [
+          153.422403,
+          -28.083282
+        ],
+        [
+          153.422421,
+          -28.087795
+        ],
+        [
+          153.42751,
+          -28.08778
+        ]
+      ],
+      "roads": [
+        "Christine Ave",
+        "Bermuda St"
+      ],
+      "state_road": "Southport - Burleigh Road",
+      "suburbs": [
+        "Burleigh Waters",
+        "Varsity Lakes"
+      ]
+    },
+    "1083_13797": {
+      "authority_counts": {
+        "council": 2,
+        "not_coded": 0,
+        "state": 9
+      },
+      "clipped_area_km2": 0.25,
+      "events": 11,
+      "manager": "state",
+      "outline": [
+        [
+          153.427314,
+          -28.038131
+        ],
+        [
+          153.427296,
+          -28.033618
+        ],
+        [
+          153.422209,
+          -28.033634
+        ],
+        [
+          153.422227,
+          -28.038147
+        ],
+        [
+          153.427314,
+          -28.038131
+        ]
+      ],
+      "roads": [
+        "Hooker Blvd",
+        "Sunshine Blvd"
+      ],
+      "state_road": "Nerang - Broadbeach Road",
+      "suburbs": [
+        "Broadbeach Waters"
+      ]
+    },
+    "1083_13804": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "council",
+      "outline": [
+        [
+          153.427189,
+          -28.006537
+        ],
+        [
+          153.427171,
+          -28.002023
+        ],
+        [
+          153.422086,
+          -28.002039
+        ],
+        [
+          153.422104,
+          -28.006552
+        ],
+        [
+          153.427189,
+          -28.006537
+        ]
+      ],
+      "roads": [
+        "Ferny Ave",
+        "Peninsular Dr"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Surfers Paradise"
+      ]
+    },
+    "1083_13805": {
+      "authority_counts": {
+        "council": 10,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 10,
+      "manager": "council",
+      "outline": [
+        [
+          153.427171,
+          -28.002023
+        ],
+        [
+          153.427154,
+          -27.99751
+        ],
+        [
+          153.422069,
+          -27.997525
+        ],
+        [
+          153.422086,
+          -28.002039
+        ],
+        [
+          153.427171,
+          -28.002023
+        ]
+      ],
+      "roads": [
+        "Ferny Ave",
+        "Thomas Dr"
+      ],
+      "state_road": "Heart Of The City 2",
+      "suburbs": [
+        "Surfers Paradise"
+      ]
+    },
+    "1083_13809": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.4271,
+          -27.983969
+        ],
+        [
+          153.427082,
+          -27.979456
+        ],
+        [
+          153.421998,
+          -27.979471
+        ],
+        [
+          153.422016,
+          -27.983985
+        ],
+        [
+          153.4271,
+          -27.983969
+        ]
+      ],
+      "roads": [
+        "Gold Coast Hwy",
+        "Cronin Ave"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Main Beach"
+      ]
+    },
+    "1084_13798": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "council",
+      "outline": [
+        [
+          153.432383,
+          -28.033602
+        ],
+        [
+          153.432365,
+          -28.029088
+        ],
+        [
+          153.427278,
+          -28.029104
+        ],
+        [
+          153.427296,
+          -28.033618
+        ],
+        [
+          153.432383,
+          -28.033602
+        ]
+      ],
+      "roads": [
+        "Gold Coast Hwy",
+        "T.E. Peters Dr"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Broadbeach"
+      ]
+    },
+    "1084_13799": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.432365,
+          -28.029088
+        ],
+        [
+          153.432347,
+          -28.024575
+        ],
+        [
+          153.42726,
+          -28.024591
+        ],
+        [
+          153.427278,
+          -28.029104
+        ],
+        [
+          153.432365,
+          -28.029088
+        ]
+      ],
+      "roads": [
+        "Gold Coast Hwy",
+        "Surf Pde"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Broadbeach"
+      ]
+    },
+    "1084_13801": {
+      "authority_counts": {
+        "council": 8,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 8,
+      "manager": "council",
+      "outline": [
+        [
+          153.432329,
+          -28.020061
+        ],
+        [
+          153.432311,
+          -28.015548
+        ],
+        [
+          153.427225,
+          -28.015564
+        ],
+        [
+          153.427243,
+          -28.020077
+        ],
+        [
+          153.432329,
+          -28.020061
+        ]
+      ],
+      "roads": [
+        "Surf Pde",
+        "Gold Coast Hwy"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Surfers Paradise",
+        "Broadbeach"
+      ]
+    },
+    "1084_13802": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.24974067438267183,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.432311,
+          -28.015548
+        ],
+        [
+          153.432293,
+          -28.011034
+        ],
+        [
+          153.427207,
+          -28.01105
+        ],
+        [
+          153.427225,
+          -28.015564
+        ],
+        [
+          153.432311,
+          -28.015548
+        ]
+      ],
+      "roads": [
+        "Old Burleigh Rd",
+        "Aubrey St"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Surfers Paradise"
+      ]
+    },
+    "1084_13803": {
+      "authority_counts": {
+        "council": 8,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.23457420392269357,
+      "events": 8,
+      "manager": "council",
+      "outline": [
+        [
+          153.432293,
+          -28.011034
+        ],
+        [
+          153.432275,
+          -28.006521
+        ],
+        [
+          153.427189,
+          -28.006537
+        ],
+        [
+          153.427207,
+          -28.01105
+        ],
+        [
+          153.432293,
+          -28.011034
+        ]
+      ],
+      "roads": [
+        "Remembrance Dr",
+        "Gold Coast Hwy"
+      ],
+      "state_road": "Heart Of The City 2",
+      "suburbs": [
+        "Surfers Paradise"
+      ]
+    },
+    "1084_13804": {
+      "authority_counts": {
+        "council": 10,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.21448116171570586,
+      "events": 10,
+      "manager": "council",
+      "outline": [
+        [
+          153.432275,
+          -28.006521
+        ],
+        [
+          153.432257,
+          -28.002007
+        ],
+        [
+          153.427171,
+          -28.002023
+        ],
+        [
+          153.427189,
+          -28.006537
+        ],
+        [
+          153.432275,
+          -28.006521
+        ]
+      ],
+      "roads": [
+        "Clifford St",
+        "Northcliffe Tce"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Surfers Paradise"
+      ]
+    },
+    "1084_13805": {
+      "authority_counts": {
+        "council": 13,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.19017521240983212,
+      "events": 13,
+      "manager": "council",
+      "outline": [
+        [
+          153.432257,
+          -28.002007
+        ],
+        [
+          153.432239,
+          -27.997494
+        ],
+        [
+          153.427154,
+          -27.99751
+        ],
+        [
+          153.427171,
+          -28.002023
+        ],
+        [
+          153.432257,
+          -28.002007
+        ]
+      ],
+      "roads": [
+        "Esplanade",
+        "Elkhorn Ave"
+      ],
+      "state_road": "Heart Of The City 2",
+      "suburbs": [
+        "Surfers Paradise"
+      ]
+    },
+    "1084_13806": {
+      "authority_counts": {
+        "council": 9,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.16968702078031375,
+      "events": 9,
+      "manager": "council",
+      "outline": [
+        [
+          153.432239,
+          -27.997494
+        ],
+        [
+          153.432221,
+          -27.99298
+        ],
+        [
+          153.427136,
+          -27.992996
+        ],
+        [
+          153.427154,
+          -27.99751
+        ],
+        [
+          153.432239,
+          -27.997494
+        ]
+      ],
+      "roads": [
+        "Ferny Ave",
+        "Ocean Ave"
+      ],
+      "state_road": "Heart Of The City 2",
+      "suburbs": [
+        "Surfers Paradise"
+      ]
+    },
+    "1085_13798": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.1680527192757262,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.43747,
+          -28.033586
+        ],
+        [
+          153.437451,
+          -28.029072
+        ],
+        [
+          153.432365,
+          -28.029088
+        ],
+        [
+          153.432383,
+          -28.033602
+        ],
+        [
+          153.43747,
+          -28.033586
+        ]
+      ],
+      "roads": [
+        "Old Burleigh Rd",
+        "Charles Ave"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Broadbeach"
+      ]
+    },
+    "1086_13788": {
+      "authority_counts": {
+        "council": 7,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 7,
+      "manager": "council",
+      "outline": [
+        [
+          153.442741,
+          -28.078704
+        ],
+        [
+          153.442723,
+          -28.074191
+        ],
+        [
+          153.437634,
+          -28.074207
+        ],
+        [
+          153.437652,
+          -28.078721
+        ],
+        [
+          153.442741,
+          -28.078704
+        ]
+      ],
+      "roads": [
+        "Mountain View Ave",
+        "Christine Ave"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Miami",
+        "Burleigh Waters"
+      ]
+    },
+    "1087_13788": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 3
+      },
+      "clipped_area_km2": 0.23067031367384136,
+      "events": 8,
+      "manager": "mixed",
+      "outline": [
+        [
+          153.44783,
+          -28.078688
+        ],
+        [
+          153.447811,
+          -28.074174
+        ],
+        [
+          153.442723,
+          -28.074191
+        ],
+        [
+          153.442741,
+          -28.078704
+        ],
+        [
+          153.44783,
+          -28.078688
+        ]
+      ],
+      "roads": [
+        "Christine Ave",
+        "Gold Coast Hwy"
+      ],
+      "state_road": "Gold Coast Highway (Broadbeach - Coolangatta)",
+      "suburbs": [
+        "Miami",
+        "Burleigh Heads"
+      ]
+    },
+    "1092_13776": {
+      "authority_counts": {
+        "council": 6,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 6,
+      "manager": "council",
+      "outline": [
+        [
+          153.473512,
+          -28.132763
+        ],
+        [
+          153.473492,
+          -28.12825
+        ],
+        [
+          153.468401,
+          -28.128268
+        ],
+        [
+          153.468421,
+          -28.132781
+        ],
+        [
+          153.473512,
+          -28.132763
+        ]
+      ],
+      "roads": [
+        "Sarawak Ave",
+        "Tahiti Ave"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Palm Beach"
+      ]
+    },
+    "1092_13777": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.25,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.473492,
+          -28.12825
+        ],
+        [
+          153.473472,
+          -28.123737
+        ],
+        [
+          153.468381,
+          -28.123754
+        ],
+        [
+          153.468401,
+          -28.128268
+        ],
+        [
+          153.473492,
+          -28.12825
+        ]
+      ],
+      "roads": [
+        "Laguna Ave",
+        "Tahiti Ave"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Palm Beach"
+      ]
+    },
+    "1102_13768": {
+      "authority_counts": {
+        "council": 5,
+        "not_coded": 0,
+        "state": 0
+      },
+      "clipped_area_km2": 0.18759555944015383,
+      "events": 5,
+      "manager": "council",
+      "outline": [
+        [
+          153.524602,
+          -28.168685
+        ],
+        [
+          153.524579,
+          -28.164172
+        ],
+        [
+          153.519487,
+          -28.164191
+        ],
+        [
+          153.519508,
+          -28.168704
+        ],
+        [
+          153.524602,
+          -28.168685
+        ]
+      ],
+      "roads": [
+        "Musgrave St",
+        "Coolangatta Rd"
+      ],
+      "state_road": null,
+      "suburbs": [
+        "Coolangatta",
+        "Bilinga"
+      ]
+    }
+  },
+  "concentration": [
+    {
+      "area_km2": 2.440175212409832,
+      "area_share_pct": 0.17740277603442914,
+      "capture_pct": 4.316546762589928,
+      "expected_if_spread_by_area": 1.2329492934392825,
+      "k": 10,
+      "times_city_average": 24.33190088159726
+    },
+    {
+      "area_km2": 4.824343394905852,
+      "area_share_pct": 0.35073379421572387,
+      "capture_pct": 7.913669064748201,
+      "expected_if_spread_by_area": 2.4375998697992807,
+      "k": 20,
+      "times_city_average": 22.563178100484908
+    },
+    {
+      "area_km2": 9.789587912502387,
+      "area_share_pct": 0.7117112177350213,
+      "capture_pct": 11.798561151079136,
+      "expected_if_spread_by_area": 4.946392963258398,
+      "k": 40,
+      "times_city_average": 16.577736667727898
+    }
+  ],
+  "holdout_year": 2024,
+  "k": 20,
+  "managers": {
+    "citywide_training": {
+      "council": 1051,
+      "not_coded": 3,
+      "state": 1032,
+      "state_share": 0.4954392702832453
+    },
+    "shortlist_cells": {
+      "council": 5,
+      "mixed": 1,
+      "state": 14
+    },
+    "shortlist_training": {
+      "council": 72,
+      "not_coded": 1,
+      "state": 141,
+      "state_share": 0.6619718309859155
+    }
+  },
+  "note": "Added after the 2024 evaluation. Describes the frozen shortlist; it was not used to choose it.",
+  "snapshot_id": "8c293a52745057c4",
+  "total_area_km2": 1375.5000158150058,
+  "training_years": [
+    2021,
+    2023
+  ]
+}
