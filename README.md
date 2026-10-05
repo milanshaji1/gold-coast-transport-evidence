@@ -1,6 +1,6 @@
 # Gold Coast transport evidence
 
-[Open the live dashboard](https://milanshaji1.github.io/gold-coast-transport-evidence/) · [Read the decision brief](https://milanshaji1.github.io/gold-coast-transport-evidence/decision-brief.html) · [Download the frozen inputs](https://github.com/milanshaji1/gold-coast-transport-evidence/releases/tag/v1.0.0)
+[Open the live dashboard](https://milanshaji.com/gold-coast-transport-evidence/) · [Read the decision brief](https://milanshaji.com/gold-coast-transport-evidence/decision-brief.html) · [Download the frozen inputs](https://github.com/milanshaji1/gold-coast-transport-evidence/releases/tag/v1.0.0)
 
 ![Dashboard](evidence/platforms/dashboard-desktop.jpg)
 
