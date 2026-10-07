@@ -27,7 +27,7 @@ If the City of Gold Coast could only investigate a handful of places for road sa
 
 ## Tools
 
-Python (pandas, GeoPandas, scikit-learn, SciPy), DuckDB and SQL, BigQuery for an independent spatial check, Power BI, and a static dashboard (JavaScript and Leaflet, hosted on GitHub Pages). Tested with pytest and Node, formatted with ruff and Prettier, and checked in GitHub Actions on every push. A small read-only [MCP server](docs/mcp-tools.md) also lets AI tools query the results.
+Python (pandas, GeoPandas, scikit-learn, SciPy), DuckDB and SQL, BigQuery for an independent spatial check, a [Power BI report](docs/platforms.md#power-bi) on a star schema with DAX measures, and a static dashboard (JavaScript and Leaflet, hosted on GitHub Pages). Tested with pytest and Node, formatted with ruff and Prettier, and checked in GitHub Actions on every push. A small read-only [MCP server](docs/mcp-tools.md) also lets AI tools query the results.
 
 ## How it works
 
@@ -76,7 +76,8 @@ Then open http://127.0.0.1:8765. The rebuild reproduces the published files exac
 | `tests/` | Python tests with small hand-checked fixtures |
 | `sql/` | DuckDB schema and the BigQuery reconciliation query |
 | `site/` | The dashboard (static HTML, CSS and JavaScript) and its data |
-| `exports/` | Analysis outputs and the BigQuery/Power BI reload pack |
+| `exports/` | Analysis outputs and the CSVs loaded into BigQuery and Power BI |
+| `powerbi/` | The Power BI model: tables, relationships, DAX measures and Power Query steps |
 | `evidence/` | Frozen settings, results, data quality and rebuild records |
 | `docs/` | Methods, sources, decision brief and quality checks |
 

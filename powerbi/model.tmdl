@@ -1,0 +1,251 @@
+createOrReplace
+
+	model Model
+		culture: en-US
+		defaultPowerBIDataSourceVersion: powerBI_V3
+		sourceQueryCulture: en-US
+		dataAccessOptions
+			legacyRedirects
+			returnErrorValuesAsNull
+
+		table dim_month
+
+			column month_start
+				dataType: dateTime
+				formatString: Long Date
+				summarizeBy: none
+				sourceColumn: month_start
+
+			column year
+				dataType: int64
+				formatString: 0
+				summarizeBy: sum
+				sourceColumn: year
+
+			column month_number
+				dataType: int64
+				formatString: 0
+				summarizeBy: sum
+				sourceColumn: month_number
+
+			column month_key
+				dataType: int64
+				formatString: 0
+				summarizeBy: none
+				sourceColumn: month_key
+
+			column month_name
+				dataType: string
+				summarizeBy: none
+				sourceColumn: month_name
+
+			partition dim_month = m
+				mode: import
+				source =
+						let
+						    Months = List.Transform({0..59}, each Date.AddMonths(#date(2020, 1, 1), _)),
+						    Base = Table.FromList(Months, Splitter.SplitByNothing(), {"month_start"}),
+						    Typed = Table.TransformColumnTypes(Base, {{"month_start", type date}}),
+						    WithYear = Table.AddColumn(Typed, "year", each Date.Year([month_start]), Int64.Type),
+						    WithMonth = Table.AddColumn(WithYear, "month_number", each Date.Month([month_start]), Int64.Type),
+						    WithKey = Table.AddColumn(WithMonth, "month_key", each [year] * 100 + [month_number], Int64.Type),
+						    WithName = Table.AddColumn(WithKey, "month_name", each Date.ToText([month_start], "MMM", "en-AU"), type text)
+						in
+						    WithName
+
+		table fact_crash
+
+			measure Crashes = COUNTROWS(fact_crash)
+				formatString: #,0
+				displayFolder: Measures
+
+			measure 'Serious crashes' = SUM(fact_crash[is_serious])
+				formatString: #,0
+				displayFolder: Measures
+
+			measure 'People killed or hospitalised' = SUM(fact_crash[serious_casualties])
+				formatString: #,0
+				displayFolder: Measures
+
+			measure 'Serious share' = DIVIDE([Serious crashes], [Crashes])
+				formatString: 0.0%
+				displayFolder: Measures
+
+			measure 'Serious crashes in top 20' = CALCULATE([Serious crashes], dim_square[in_top20] = "Yes")
+				formatString: #,0
+				displayFolder: Measures
+
+			measure 'Top 20 capture' = DIVIDE([Serious crashes in top 20], [Serious crashes])
+				formatString: 0.0%
+				displayFolder: Measures
+
+			measure 'Top 20 area share' = DIVIDE(CALCULATE(SUM(dim_square[area_in_city_km2]), dim_square[in_top20] = "Yes"), CALCULATE(SUM(dim_square[area_in_city_km2]), REMOVEFILTERS(dim_square)))
+				formatString: 0.00%
+				displayFolder: Measures
+
+			measure 'Times city average' = DIVIDE([Top 20 capture], [Top 20 area share])
+				formatString: 0.0
+				displayFolder: Measures
+
+			measure 'Serious crashes, previous year' = VAR SelectedYear = MAX(dim_month[year]) RETURN CALCULATE([Serious crashes], REMOVEFILTERS(dim_month), dim_month[year] = SelectedYear - 1)
+				formatString: #,0
+				displayFolder: Measures
+
+			measure 'Change vs previous year' = DIVIDE([Serious crashes] - [Serious crashes, previous year], [Serious crashes, previous year])
+				formatString: +0.0%;-0.0%;0.0%
+				displayFolder: Measures
+
+			measure 'Casualty crashes' = FORMAT([Crashes], "#,0")
+
+			measure 'Serious crash events' = FORMAT([Serious crashes], "#,0")
+
+			measure 'Killed or hospitalised' = FORMAT([People killed or hospitalised], "#,0")
+
+			measure 'Top 20 vs city average' = FORMAT([Times city average], "0.0") & "×"
+
+			column crash_id
+				dataType: int64
+				formatString: 0
+				summarizeBy: none
+				sourceColumn: crash_id
+
+			column year
+				dataType: int64
+				formatString: 0
+				summarizeBy: none
+				sourceColumn: year
+
+			column month
+				dataType: int64
+				formatString: 0
+				summarizeBy: none
+				sourceColumn: month
+
+			column severity
+				dataType: string
+				summarizeBy: none
+				sourceColumn: severity
+
+			column serious_casualties
+				dataType: int64
+				formatString: 0
+				summarizeBy: sum
+				sourceColumn: serious_casualties
+
+			column square_id
+				dataType: string
+				isHidden
+				summarizeBy: none
+				sourceColumn: square_id
+
+			column within_current_boundary
+				dataType: boolean
+				formatString: """TRUE"";""TRUE"";""FALSE"""
+				summarizeBy: none
+				sourceColumn: within_current_boundary
+
+			column longitude
+				dataType: double
+				dataCategory: Longitude
+				summarizeBy: none
+				sourceColumn: longitude
+
+			column latitude
+				dataType: double
+				dataCategory: Latitude
+				summarizeBy: none
+				sourceColumn: latitude
+
+			column month_key
+				dataType: int64
+				isHidden
+				formatString: 0
+				summarizeBy: none
+				sourceColumn: month_key
+
+			column is_serious
+				dataType: int64
+				formatString: 0
+				summarizeBy: sum
+				sourceColumn: is_serious
+
+			partition fact_crash = m
+				mode: import
+				source =
+						let
+						    Source = Csv.Document(Web.Contents("https://raw.githubusercontent.com/milanshaji1/gold-coast-transport-evidence/main/exports/cloud/events.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+						    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+						    Typed = Table.TransformColumnTypes(Promoted, {{"crash_id", Int64.Type}, {"year", Int64.Type}, {"month", Int64.Type}, {"severity", type text}, {"serious", type logical}, {"serious_casualties", Int64.Type}, {"cell_id", type text}, {"within_current_boundary", type logical}, {"longitude_wgs84", type number}, {"latitude_wgs84", type number}, {"snapshot_id", type text}}, "en-US"),
+						    WithMonthKey = Table.AddColumn(Typed, "month_key", each [year] * 100 + [month], Int64.Type),
+						    WithSeriousFlag = Table.AddColumn(WithMonthKey, "is_serious", each if [serious] then 1 else 0, Int64.Type),
+						    Renamed = Table.RenameColumns(WithSeriousFlag, {{"cell_id", "square_id"}, {"longitude_wgs84", "longitude"}, {"latitude_wgs84", "latitude"}}),
+						    Result = Table.RemoveColumns(Renamed, {"serious", "snapshot_id"})
+						in
+						    Result
+
+		table dim_square
+
+			column square_id
+				dataType: string
+				summarizeBy: none
+				sourceColumn: square_id
+
+			column area_in_city_km2
+				dataType: double
+				summarizeBy: none
+				sourceColumn: area_in_city_km2
+
+			column shortlist_rank
+				dataType: int64
+				formatString: 0
+				summarizeBy: none
+				sourceColumn: shortlist_rank
+
+			column main_roads
+				dataType: string
+				summarizeBy: none
+				sourceColumn: main_roads
+
+			column road_manager
+				dataType: string
+				summarizeBy: none
+				sourceColumn: road_manager
+
+			column suburbs
+				dataType: string
+				summarizeBy: none
+				sourceColumn: suburbs
+
+			column in_top20
+				dataType: string
+				summarizeBy: none
+				sourceColumn: in_top20
+
+			column square_label
+				dataType: string
+				summarizeBy: none
+				sourceColumn: square_label
+
+			partition dim_square = m
+				mode: import
+				source =
+						let
+						    Cells = Table.PromoteHeaders(Csv.Document(Web.Contents("https://raw.githubusercontent.com/milanshaji1/gold-coast-transport-evidence/main/exports/cloud/cells.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]), [PromoteAllScalars = true]),
+						    CellsTyped = Table.TransformColumnTypes(Table.SelectColumns(Cells, {"cell_id", "clipped_area_km2"}), {{"cell_id", type text}, {"clipped_area_km2", type number}}, "en-US"),
+						    Shortlist = Table.PromoteHeaders(Csv.Document(Web.Contents("https://raw.githubusercontent.com/milanshaji1/gold-coast-transport-evidence/main/site/data/shortlist.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]), [PromoteAllScalars = true]),
+						    ShortlistTyped = Table.TransformColumnTypes(Table.SelectColumns(Shortlist, {"rank", "cell_id", "main_roads", "road_manager", "suburbs"}), {{"rank", Int64.Type}, {"cell_id", type text}, {"main_roads", type text}, {"road_manager", type text}, {"suburbs", type text}}, "en-US"),
+						    Joined = Table.NestedJoin(CellsTyped, {"cell_id"}, ShortlistTyped, {"cell_id"}, "shortlist", JoinKind.LeftOuter),
+						    Expanded = Table.ExpandTableColumn(Joined, "shortlist", {"rank", "main_roads", "road_manager", "suburbs"}, {"shortlist_rank", "main_roads", "road_manager", "suburbs"}),
+						    Renamed = Table.RenameColumns(Expanded, {{"cell_id", "square_id"}, {"clipped_area_km2", "area_in_city_km2"}}),
+						    WithTop20 = Table.AddColumn(Renamed, "in_top20", each if [shortlist_rank] <> null and [shortlist_rank] <= 20 then "Yes" else "No", type text),
+						    WithLabel = Table.AddColumn(WithTop20, "square_label", each if [shortlist_rank] = null then [square_id] else Text.From([shortlist_rank]) & ". " & [main_roads], type text)
+						in
+						    WithLabel
+
+		relationship AutoDetected_6dee5e98-93c1-4fea-b237-f025b3307a1e
+			fromColumn: fact_crash.month_key
+			toColumn: dim_month.month_key
+
+		relationship AutoDetected_7260e46a-b91e-4ecc-b1f7-db7b15038dfa
+			fromColumn: fact_crash.square_id
+			toColumn: dim_square.square_id
